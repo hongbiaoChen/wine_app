@@ -1,0 +1,71 @@
+/*顶部*/
+#top{
+	width: 100%;
+	height:180px;
+}
+#top .top{
+	width: 100%;
+	/*height: 186px;*/
+	min-height: 100%;
+	background-color: #000;
+	overflow: hidden;
+	text-align: center;
+}
+#top .top>.logo{
+	width: 87px;
+	height: 87px;
+	border-radius: 50%;
+	border:3px solid #D3AC66;
+	margin-top: 15px;
+}
+#top .top>p:nth-child(2){
+	font-size: 16px;
+	margin:6px 0px 5px 0px;
+}
+#top .top>p:last-child{
+	font-size: 10px;
+	color: #fff;
+}
+/*主体奖品*/
+#main .vipNowPower{
+	width: 95%;
+	min-height: 320px;
+	background-color: #fff;
+	margin:0 auto;
+	border-radius: 10px;
+	margin-top: 20px;
+	position: relative;
+}
+.vipNowPower .arrow{
+	position: absolute;
+	left:50%;
+	top:-8px;
+}
+#main .vipNowPower .outsize{
+	padding-top:15px;
+}
+#main .vipNowPower .outsize>span{
+	display: inline-block;
+	width: 32%;
+	/*position: relative;*/
+	text-align: center;
+}
+#main .vipNowPower .redbag{
+	font-size: 12px;
+	margin-top:3px;
+	display: block; 
+	-webkit-transform:scale(0.9);
+}
+#main .vipNowPower .enjoy{
+	font-size: 16px;
+	color:#999;
+	display: block;
+	margin-top:-4px;
+	/*-webkit-text-size-adjust:none;*/
+	-webkit-transform:scale(0.5);
+}
+#main .vipNowPower .award{
+	display: block;
+	margin:0 auto;
+	margin-top: -12px;
+}

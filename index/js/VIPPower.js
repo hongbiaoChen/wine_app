@@ -11,3 +11,15 @@ $(function(){
 		})
 	}
 })
+//积分明细弹出框
+$(function(){
+	$("#allScore").on('touchstart',function(event){
+		event.preventDefault();
+		$(".detailMask").fadeIn();
+	});
+	if($(".detailMask").length > 0){
+		$("#closetwo").on('touchstart',function(){
+			$(".detailMask").fadeOut();
+		})
+	}
+})

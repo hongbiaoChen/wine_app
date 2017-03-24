@@ -287,7 +287,76 @@
 	color:#fff;
 	font-size: 15px;
 }
-
+/*积分明细弹出框*/
+.detailMask{
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom: 0;
+	background: rgba(0,0,0,0.7);
+	z-index: 999;
+	display: none;
+}
+.detailMask .motaiAnother{
+	width: 90%;
+	height: 500px;
+	background: url(../VIPPower_images/mx@2x.png) no-repeat center center;
+	background-size:100% 500px; 
+	margin:0 auto;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	margin-top:58px;
+}
+.motaiAnother img{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top:10px;
+	right: 10px;
+}
+.motaiAnother .scorTitle{
+	font-size: 12px;
+	color: #fff;
+	margin-top:36px;
+}
+.motaiAnother .nowScor{
+	margin:4px 0;
+}
+.motaiAnother .nowScor>span:first-child{
+	color: #fff;
+	font-size: 30px;
+	font-weight: blod;
+}
+.motaiAnother .nowScor>span:last-child{
+	color:#fff;
+	font-size: 12px;
+}
+.motaiAnother .leverWay{
+	color:#fff;
+	font-size: 15px;
+}
+.motaiAnother .detaiOutsize{
+	margin-top: 72px;
+	overflow:hidden;
+}
+.motaiAnother .detaiOutsize .detailShow{
+	width: 96%;
+	height: 40px;
+	border-bottom:1px solid #e6e6e6;
+	float: right;
+	text-align: left;
+}
+.motaiAnother .detaiOutsize .detailShow>p:first-child{
+	font-size: 12px;
+	color:#4d4d4d;
+	margin-top: 4px;
+}
+.motaiAnother .detaiOutsize .detailShow>p:last-child{
+	font-size: 10px;
+	color:#999;
+}
 /*媒体查询*/
 @media screen and (min-width:767px){
 	body{
