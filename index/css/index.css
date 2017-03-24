@@ -1,0 +1,426 @@
+/*主页面样式*/
+
+/*轮播样式*/
+#top .top{
+	width: 100%;
+	height: 188px;
+	position: relative;
+}
+.swiper-container {
+  	height: 188px;
+  	width: 100%;
+}
+#top .top img{
+	width: 100%;
+	height: 188px;
+}
+.top .pagination {
+  	position: absolute;
+  	left: 0;
+  	text-align: center;
+  	bottom:5px;
+  	width: 100%;
+  	z-index: 2;
+}
+.swiper-pagination-switch {
+  	display: inline-block;
+  	width: 10px;
+  	height: 10px;
+  	border-radius: 10px;
+  	background: #999;
+  	box-shadow: 0px 1px 2px #555 inset;
+  	margin: 0 3px;
+  	cursor: pointer;
+}
+.swiper-active-switch {
+  	background: #fff;
+}
+/*签到 秒杀 拼团 个性化*/
+.userInteraction{
+	width: 100%;
+	height: 87px;
+	margin-top: 15px;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){/*针对ipad*/
+	.userInteraction{
+		width: 100%;
+		height: 205px;
+		margin-top: 15px;
+	}
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px){/*针对ipad pro*/
+	.userInteraction{
+		width: 100%;
+		height: 237px;
+		margin-top: 15px;
+	}
+}
+.userInteraction ul{
+	width:100%;
+	/*margin-left: 8%;*/
+}
+.userInteraction ul li{
+	float: left;
+	/*margin-right: 6.67%;*/
+	width: 25%;
+	text-align: center;
+}
+.userInteraction ul li img{
+	width: 65%;
+}
+.userInteraction ul li p{
+	font-size: 0.8rem;
+	text-align: center;
+	margin-top: 5px;
+}
+/*搜索框*/
+.searchForm{
+	width: 93%;
+	margin: 0 auto;
+	margin-top:30px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 10px;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 410px){/*针对iphone5 iphone6*/
+	.searchForm{
+		margin-top: 24px;
+	}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){/*针对ipad*/
+	.searchForm{
+		margin-top: 15px;
+	}
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px){/*针对ipad pro*/
+	.searchForm{
+		margin-top: 50px;
+	}
+}
+.searchForm input{
+	padding-left:51.5px;
+	width: 100%;
+	height: 40px;
+	background-color:#fff;
+	box-sizing:border-box;
+	border-radius: 10px;
+	background: url(../images/icon_search@2x.png) no-repeat 7px 7px;
+	border:0px;
+}
+/*主推套餐*/
+.packTitle{
+	text-align: center;
+	margin-top:16px;
+	font-size: 1rem;
+}
+#main .swiper-container-1{
+	margin-top: 10px;
+	overflow: hidden;
+	height:108px;
+}
+.thumbs-cotnainer .swiper-wrapper{
+	height: 108px;
+	width: 1024px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.thumbs-cotnainer .swiper-wrapper .swiper-slide{
+	height: 108px;
+	width: 14%;
+	margin-right: 12px;
+}
+/*.thumbs-cotnainer .swiper-wrapper .swiper-slide:nth-child(3),.thumbs-cotnainer .swiper-wrapper .swiper-slide:nth-child(4){
+	width: 5.3%;
+}*/
+.thumbs-cotnainer .swiper-wrapper .swiper-slide img{
+	width: 100%;
+	height: 108px;
+}
+/*秒杀单品*/
+.seckillTile{
+	margin-top:15px;
+}
+.killOrder{
+	margin-top: 10px;
+}
+.killOrder img{
+	width:25%;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+.killOrder span{
+	margin-left: 10px;
+	font-size: 0.7rem;
+	color:#7E7E7D;
+}
+.killShopOut{
+	width: 100%;
+	margin-top: 12px;
+	text-align: center;
+	overflow:hidden;
+}
+.killShopOut .swiper-wrapper{
+	width: 780px !important;
+	padding-left: 14px !important;
+	padding-right: 0px !important;
+}
+.killShopOut .firstPrice{
+	font-size:14px;
+}
+.killShopOut img{
+	width: 73%;
+	margin-top: 2px;
+	height: 58px;
+}
+.killShopOut a{
+	display: inline-block;
+	width: 9%;
+	height: 96px;
+	/*background-color: #fff;*/
+	text-align: center;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){/*针对ipad*/
+	.killShopOut a{
+		height: 182px;
+	}
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px){/*针对ipad pro*/
+	.killShopOut a{
+		height: 240px;
+	}
+}
+.secondPrice{
+	font-size: 0.5rem;
+	color: #999;
+}
+/*热门推荐*/
+.hotout{
+	width: 94%;
+	height: 10rem;
+	margin: 0 auto;
+	background: url(../images/31253291366247838.png) no-repeat center center;
+	background-size:cover;
+	margin-top: 10px;
+	position: relative;
+}
+/*.featured {
+    background-image:linear-gradient(to bottom, #aaa, #eee);
+    height: 10rem;
+}
+.featured .swiper-wrapper{
+	height: 10rem !important;
+}
+.featured .swiper-slide {
+	border-radius: 5px;
+	height: 160px;
+	width: 273px;
+	background-size: cover;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+    -webkit-box-reflect: below 1px -webkit-linear-gradient(bottom, rgba(0,0,0,0.5) 0px, rgba(0,0,0,0) 20px);
+}
+.featured a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}*/
+
+/*.device {
+  width: 660px;
+  position: relative;
+  margin: 10px auto;
+  height: 250px;
+  padding: 30px 40px;
+  border-radius: 20px;
+  background: #000;
+  border:3px solid #fff;
+  box-shadow: 0px 0px 5px #000;
+}*/
+/*热门文章*/
+.cicleOut{
+	width: 94%;
+	margin: 0 auto;
+	margin-top:10px;
+}
+.cicleOut img{
+	width: 35%;
+	height: 5rem;
+	margin-right: 20px;
+}
+.picCircle{
+	overflow: hidden;
+	margin-top: 10px;
+}
+.circleintroduce{
+	margin-top: 10px;
+	color: #333;
+}
+.circleintroduce p:last-child{
+	margin-top: 23px;
+	color: #999;
+}
+.moreCicleIntroduce{
+	float: right;
+}
+/*猜你喜欢*/
+.likeGuestOut{
+	width: 100%;
+	margin-top: 10px;
+	overflow: hidden;
+	padding-bottom:71px;
+	position: relative;
+}
+.likeGuestOut .likeGuest:first-child{
+	margin-right:4%;
+}
+.likeGuestOut .likeGuest{
+	width: 48%;
+	height: 13.9rem;
+	background-color: #fff;
+	position: relative;
+}
+.likeIn{
+	width: 81%;
+	height: 13.9rem;
+	margin: 0 auto;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){/*针对ipad*/
+	.likeIn{
+		width: 82%;
+	}
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px){/*针对ipad pro*/
+	.likeIn{
+		width: 82%;
+	}
+}
+.likeIn img{
+	width: 100%;
+	height: 6.7rem;
+	margin-top:16px;
+}
+/*.likeIn p:nth-child(2){
+	line-height: 21px;
+}*/
+.likeIn p:nth-child(2),.likeIn p:nth-child(3){
+	color:#4d4d4d;
+}
+.likeIn p:nth-child(4){
+	margin-top: 13px;
+}
+.likeIn p:last-child{
+	margin-top: 8px;
+	color: #ccc;
+}
+.discount{
+	font-size: 0.63rem;
+	color:#ccc;
+}
+.morelike{
+	float: right;
+	margin-top: -8px;
+}
+.morelike img{
+	width: 100%;
+	height: 4px;
+}
+/*底部导航*/
+/*.footnav{
+	width: 100%;
+	height: 64px;
+	background-color: #fff;
+	position: fixed;
+	z-index: 1000;
+	bottom: 0;
+}
+.footnav div{
+	width: 20%;
+	float:left;
+	text-align: center;
+}
+.footnav div img{
+	width: 40%;
+	margin-top: 5px;
+}
+.footnav .shequ{
+	width: 45%;
+}
+.footnav .shangcheng{
+	margin-top:6px;
+	width: 15%;
+}
+.footnav .shouye{
+	margin-top:10px;
+	width: 36%;
+}
+.footnav .meijiu{
+	margin-top:-3px;
+	width: 57%;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+	.footnav{
+		height: 125px;
+	}
+	.footnav .shouye{
+		margin-top:17px; 
+	}
+	.footnav .meijiu{
+		margin-top:-11px;
+	}
+	.likeGuestOut{
+		margin-bottom: 138px;
+	}
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px){
+	.footnav{
+		height: 164px;
+	}
+	.footnav .meijiu{
+		margin-top:-18px;
+	}
+	.likeGuestOut{
+		margin-bottom: 169px;
+	}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+	body{
+		font-size: 24px;
+	}
+}*/
+/*遮罩层*/
+.mask{
+	position: absolute;
+	width: 100%;
+	height: 13.9rem;
+	top: 0;
+	left: 0;
+	background-color:#EAE4D8;
+	opacity: 0.6;
+	z-index: 100;
+	display: none; 
+}
+.mask a{
+	display: block;
+	width: 54px;
+	height: 54px;
+	border-radius: 50%;
+	color: #fff;
+	font-weight: bold;
+	background-color: #d3ac65;
+	opacity: 0.7;
+	text-align: center;
+	line-height: 54px;
+	margin: 0 auto;
+	margin-top: 43%;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){/*针对ipad*/
+	.mask a{
+		width: 102px;
+		height: 102px;
+		line-height: 102px;
+	}
+}
+
+

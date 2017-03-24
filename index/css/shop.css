@@ -1,0 +1,216 @@
+/*轮播样式*/
+#top .top{
+	width: 100%;
+	height: 188px;
+	position: relative;
+}
+.swiper-container {
+  	height: 188px;
+  	width: 100%;
+}
+#top .top img{
+	width: 100%;
+	height: 188px;
+}
+.top .pagination {
+  	position: absolute;
+  	left: 0;
+  	text-align: center;
+  	bottom:5px;
+  	width: 100%;
+  	z-index: 2;
+}
+.swiper-pagination-switch {
+  	display: inline-block;
+  	width: 10px;
+  	height: 10px;
+  	border-radius: 10px;
+  	background: #999;
+  	box-shadow: 0px 1px 2px #555 inset;
+  	margin: 0 3px;
+  	cursor: pointer;
+}
+.swiper-active-switch {
+  	background: #fff;
+}
+/*搜索框*/
+.searchForm{
+	width: 93%;
+	text-align: center;
+	background-color: #fff;
+	opacity: 0.6;
+	border-radius: 10px;
+	position: absolute;
+	z-index: 5;
+	left: 3.2%;
+	top:22.5px;
+}
+.searchForm input{
+	padding-left:51.5px;
+	width: 100%;
+	height: 40px;
+	background-color:#fff;
+	box-sizing:border-box;
+	border-radius: 10px;
+	background: url(../images/icon_search@2x.png) no-repeat 7px 7px;
+	border:0px;
+}
+/*场合选项卡切换*/
+.tabs {
+  	width: 95%;
+  	margin: 0 auto;
+  	margin-top:15px;
+  	overflow: hidden;
+}
+.tabs a {
+  	display: block;
+  	float: left;
+  	width: 29%;
+  	text-align: center;
+  	line-height: 36px;
+  	font-size: 17px;
+}
+.tabs a.active {
+  	border-bottom: 2px solid #D3AC65;
+}
+.swiper-container-1 {
+  	height: 155px;
+  	width: 100%;
+   margin-bottom: 8px;
+  	overflow: hidden;
+}
+.dring_classification a{
+	display: inline-block;
+	width: 32%;
+	height: 62px;
+	margin-top:10px;
+	text-align: center;
+}
+.dring_classification a img{
+	width: 30%;
+}
+.dring_classification a span{
+	display: block;
+	margin-top:2px;
+	font-size:11px;
+	color: #666;
+}
+/*背景图片*/
+/*.bgpicOne{
+   margin-top: 15px;
+}*/
+.bgpicOne a{
+   display: block;
+   width: 100%;
+   height: 170px;
+   text-align: center;
+   position: relative;
+}
+.bgpicOne a img:first-child{
+   width: 100%;
+   height: 170px;
+}
+.bgpicOne a img:last-child{
+   position: absolute;
+   bottom: 0;
+   left:50%;
+}
+/*葡萄酒介绍*/
+.grape_dring{
+   width: 100%;
+   height: 156px;
+   margin-top: 10px;
+   text-align: center;
+}
+.grape_dring a{
+   display: inline-block;
+   width: 28%;
+   height: 150px;
+   text-align: center;
+   margin-left: 10px;
+}
+.grape_dring a img{
+   width: 16%;
+}
+.grape_dring a span:nth-child(2){
+   display: block;
+   font-size: 12px;
+   color: #4d4d4d;
+   margin-bottom: 8px;
+   margin-top: 8px;
+}
+.grape_dring_bot{
+   padding-bottom: 53px;
+}
+/*底部导航*/
+/*#footer{
+   overflow: hidden;
+}*/
+./*footnav{
+   width: 100%;
+   height: 64px;
+   background-color: #fff;
+   position: fixed;
+   z-index: 1000;
+   bottom: 0;
+}
+.footnav div{
+   width: 20%;
+   float:left;
+   text-align: center;
+}
+.footnav div img{
+   width: 40%;
+   margin-top: 5px;
+}
+.footnav .shequ{
+   width: 45%;
+}
+.footnav .shangcheng{
+   margin-top:6px;
+   width: 15%;
+}
+.footnav .shouye{
+   margin-top:10px;
+   width: 36%;
+}
+.footnav .meijiu{
+   margin-top:-3px;
+   width: 57%;
+}
+@media screen and (min-width:414px){
+   .dring_classification a span{
+      font-size:14px;
+   }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+   .footnav{
+      height: 125px;
+   }
+   .footnav .shouye{
+      margin-top:17px; 
+   }
+   .footnav .meijiu{
+      margin-top:-11px;
+   }
+   .likeGuestOut{
+      margin-bottom: 138px;
+   }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px){
+   .footnav{
+      height: 164px;
+   }
+   .footnav .meijiu{
+      margin-top:-18px;
+   }
+   .likeGuestOut{
+      margin-bottom: 169px;
+   }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+   body{
+      font-size: 24px;
+   }
+}
+*/
