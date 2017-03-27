@@ -59,7 +59,7 @@ $(function(){
     });
 });
 
-//默认获取分页产品 方法一：自己实现
+//默认获取分页产品 方法一：原生实现
 // $(function(){
 //     var actId = $(".dirnkingOutsize a").attr("id");
 //     var start=1;//开始加载分页为1

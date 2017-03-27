@@ -1,9 +1,10 @@
 /*会员俱乐部*/
 #top{
 	width: 100%;
-	height:28%;
+	/*height:28%;*/
+	height: 180px;
 }
-#top .top{
+#top .top{ 
 	width: 100%;
 	/*height: 186px;*/
 	min-height: 100%;
@@ -29,6 +30,7 @@
 	background-color: #F3E3C9;
 	margin-top:60px;
 	position: relative; 
+	text-align: center;
 }
 #top .top .userPic{
 	display: inline-block;
@@ -36,9 +38,9 @@
 	width: 50px;
 	border-radius: 50%;
 	border:2px solid #D3AC65;
-	position: absolute;
-	/*left:43%;*/
-	top: -22px;
+	/*position: absolute;
+	top: -22px;*/
+	margin-top:-22px;
 	z-index: 99;
 }
 #top .top .userPic img{
