@@ -85,8 +85,8 @@ h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd{
 		margin-bottom: 169px;
 	}
 }
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
 	body{
 		font-size: 24px;
 	}
-}
+}*/

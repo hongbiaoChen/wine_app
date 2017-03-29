@@ -15,9 +15,12 @@
 }
 #top .top .topIntroduce{
 	width: 100%;
-	height: 60px;
+	height: 100px;
+	/*line-height: 100px;*/
 	background-color:#fff;
 	border-bottom:1px solid #E6E6E6;
+	text-align: center;
+	position: relative;
 }
 .topIntroduce .userPic{
 	float:left;
@@ -27,6 +30,7 @@
 	border-radius: 50%;
 	background-color:#000;
 	margin:5px 0px 0px 8px;
+	display: none;
 }
 .topIntroduce .userPic img{
 	width: 50px;
@@ -36,6 +40,7 @@
 .topIntroduce .userLever{
 	float:left;
 	margin:12px 0px 0px 7px;
+	display: none;
 }
 .topIntroduce .userLever p:first-child{
 	font-size: 12px;
@@ -50,8 +55,19 @@
 	text-align: center;
 	margin-top:5px;
 }
+.topIntroduce .login{
+	display: inline-block;
+	width: 110px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border:1px solid #D4AC67;
+	border-radius: 17px;
+	margin-top:32px;
+	/*display:none;*/
+}
 .topIntroduce .merberClub{
-	float: right;
+	/*float: right;*/
 	width: 80px;
 	height:20px;
 	line-height: 20px;
@@ -61,7 +77,10 @@
 	color:#fff;
 	background:url(../mymain_images/btn@2x.png) no-repeat;
 	background-size:80px 20px;
-	margin-top:22px;
+	/*margin-top:22px;*/
+	position: absolute;
+	right: 0;
+	top: 40px;
 }
 .top .userActive{
 	width: 100%;
@@ -169,6 +188,7 @@
 	height:50px;
 	text-align: center;
 	margin-top:5px;
+	position: relative;
 }
 @media screen and (max-width:360px){
 	.orderGift .orderDetail>a:last-child{
@@ -178,9 +198,22 @@
 		font-size:10px;
 	}
 }
-.orderGift .orderDetail a span{
+.orderGift .orderDetail a span:first-child{
 	display: inline-block;
 	width: 100%;
+}
+.orderGift .orderDetail .num{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	line-height: 12px;
+	border:1px solid #000;
+	color: #000;
+	border-radius: 50%;
+	text-align: center;
+	position: absolute;
+	right: 8px;
+	top: 13px;
 }
 .orderGift .orderDetail>a img{
 	width:22px;

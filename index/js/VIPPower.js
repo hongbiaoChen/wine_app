@@ -23,3 +23,18 @@ $(function(){
 		})
 	}
 })
+// 点击侧边栏按钮
+$(function(){
+	$("#navbtn").on('touchstart',function(event){
+		event.preventDefault();
+		$(".navmask").fadeIn().siblings('.navselect').fadeIn();
+	});
+	$(".navmask").on('touchstart',function(event){
+		$(this).fadeOut().siblings('.navselect').fadeOut();
+	});
+})
+//链接跳转点击元素对应显现背景色
+$(".navselect").on('touchstart','.bgc',function(){
+	//event.preventDefault();
+	$(this).addClass('active').siblings().removeClass('active');
+})
