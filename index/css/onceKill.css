@@ -1,0 +1,146 @@
+/*上部*/
+#top .top{
+	display: inline-block;
+	width: 100%;
+	height: 147px;
+}
+#top .top>img{
+	width: 100%;
+	height: 147px;
+}
+#top .topTitle{
+	width: 100%;
+	min-height: 51px;
+	line-height: 51px;
+	background-color: #fff;
+	margin: 15px 0px;
+}
+#top .topTitle>img{
+	vertical-align: middle;
+	margin: 0px 4px 0px 10px;
+}
+/*主体*/
+/*倒计时*/
+#main .lastTime{
+	width: 100%;
+	min-height: 23px;
+	line-height: 23px;
+	background-color: #E6E6E6;
+	color:#000;
+	font-size: 12px;
+}
+.lastTime .rob{
+	margin-left:8px;
+}
+.lastTime .timeshow{
+	float: right;
+	margin-right: 8px;
+}
+.lastTime .timeshow .times{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	line-height: 17px;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	border-radius: 3px;
+}
+/*秒杀商品*/
+#main .killshop{
+	width: 100%;
+	min-height: 110px;
+	background-color: #fff;
+	margin-bottom:10px;
+	overflow: hidden;
+}
+.killshop>img:first-child{
+	width: 110px;
+	height: 110px;
+	vertical-align: middle;
+	float: left;
+	margin-right:7px;
+}
+.killshop .shopIntro>p:first-child{
+	color: #000;
+	margin-top: 3px;
+	height: 34px;
+	overflow: hidden;
+}
+.killshop .shopIntro .gorob{
+	margin-top: 25px;
+	position: relative;
+	line-height: 22px;
+	/*margin-bottom: 5px;*/
+}
+.killshop .shopIntro .gorob>span:first-child{
+	font-size: 13px;
+}
+.killshop .shopIntro .gorob>span:last-child{
+	display: inline-block;
+	width: 60px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	background-color: #CFCFCF;
+	color:#fff;
+	border-radius: 5px;
+	position: absolute;
+	right: 6px;
+}
+.killshop .shopIntro .sellDetail{
+	position: relative;
+}
+.killshop .shopIntro .sellDetail>span:first-child{
+	color:#999;
+	font-size: 12px;
+	text-decoration: line-through;
+}
+.killshop .shopIntro .sellDetail>span:last-child{
+	display: block;
+	width: 62px;
+	height: 5px;
+	border:1px solid #E9C390;
+	border-radius: 5px;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+}
+.killshop .shopIntro .sellDetail .havesell{
+	position: absolute;
+	right: 76px;
+}
+.killshop .shopIntro .sellDetail .process{
+	display: block;
+	width: 40px;
+	height: 5px;
+	background-color: #E9C390;
+	border-radius: 5px;
+}
+/*页面尾部*/
+#footer{
+	width: 100%;
+	height: 46px;
+	background-color: #FAFAFA;
+	position: fixed;
+	bottom: 0;
+}
+#footer>a{
+	display: inline-block;
+	width: 48%;
+	height: 40px;
+	text-align: center;
+	margin-top: 5px;
+}
+#footer>a:first-child{
+	border-right:1px solid #EBEBEB;
+	box-sizing:border-box;
+}
+#footer>a>img{
+	vertical-align: bottom;
+}
+#footer>a>span{
+	display: block;
+	font-size: 12px;
+	-webkit-transform:scale(0.9);
+}
