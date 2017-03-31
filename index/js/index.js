@@ -190,7 +190,13 @@ $(function(){
         location.href = "VIPClub.html";
     })
 })
-
+//秒杀跳转
+$(function(){
+    $('.oncekill').on('touchstart',function(event){
+        event.preventDefault();
+        location.href = "oncekill.html";
+    })
+})
 //异步请求尾部导航
 $(function(){
     $("#footer").load('footer.html',function(){

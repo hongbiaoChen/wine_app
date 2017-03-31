@@ -1,52 +1,30 @@
-/*上部*/
-#top .top{
-	display: inline-block;
-	width: 100%;
-	height: 147px;
+body{
+	background: url(../groupbuy_images/bg@2x.png) no-repeat center center;
+	background-size: 100% 100%;
+	background-attachment: fixed; /*背景图片不随滚动条滚动*/
 }
-#top .top>img{
-	width: 100%;
-	height: 147px;
+/*发起团购按钮*/
+#top{
+	text-align: center;
+	color: #fff;
 }
 #top .topTitle{
-	width: 100%;
-	min-height: 51px;
-	line-height: 51px;
-	background-color: #fff;
-	margin: 15px 0px;
+	margin-top:50%;
 }
-#top .topTitle>img{
-	vertical-align: middle;
-	margin: 0px 4px 0px 10px;
+#top .top{
+	margin:10px 0px 12px 0px;
 }
-/*主体*/
-/*倒计时*/
-#main .lastTime{
-	width: 100%;
-	min-height: 23px;
-	line-height: 23px;
-	background-color: #E6E6E6;
-	color:#000;
-	font-size: 12px;
-}
-.lastTime .rob{
-	margin-left:8px;
-}
-.lastTime .timeshow{
-	float: right;
-	margin-right: 8px;
-}
-.lastTime .timeshow .times{
+#top .top>a{
 	display: inline-block;
-	width: 17px;
-	height: 17px;
-	line-height: 17px;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
 	text-align: center;
-	background-color: #000;
+	background-color: #D3AD66;
 	color: #fff;
-	border-radius: 3px;
+	border-radius: 5px;
 }
-/*秒杀商品*/
+/*参团商品*/
 #main .killshop{
 	width: 100%;
 	min-height: 110px;
@@ -116,31 +94,4 @@
 	height: 5px;
 	background-color: #E9C390;
 	border-radius: 5px;
-}
-/*页面尾部*/
-#footer{
-	width: 100%;
-	height: 46px;
-	background-color: #FAFAFA;
-	position: fixed;
-	bottom: 0;
-}
-#footer>a{
-	display: inline-block;
-	width: 49%;
-	height: 40px;
-	text-align: center;
-	margin-top: 5px;
-}
-#footer>a:first-child{
-	border-right:1px solid #EBEBEB;
-	box-sizing:border-box;
-}
-#footer>a>img{
-	vertical-align: bottom;
-}
-#footer>a>span{
-	display: block;
-	font-size: 12px;
-	-webkit-transform:scale(0.9);
 }

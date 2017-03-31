@@ -1,16 +1,25 @@
+// 秒杀倒计时，每天0点开始
 $(function(){
-	function gettime(){
-		var now = new Date();
-		var end = new Date('2017/03/30 24:00:00');
-		var timer = now.getTime()-end.getTime();
-		var day = Math.floor(timer/1000/60/60/24);
-		var hour = Math.floor(timer/1000/60/60%24);
-		var minute = Math.floor(timer/1000/60%60);
-       	var second = Math.floor(timer/1000%60);
-
-       	$('.hour').html(hour);
-       	$('.minute').html(minute);
-       	$('.second').html(second);
+	function GetRTime(){
+    	var EndTime= new Date('2100/03/31 24:00:00');
+    	var NowTime = new Date();
+    	var t =EndTime.getTime() - NowTime.getTime();
+    	var d=Math.floor(t/1000/60/60/24);
+    	var h=Math.floor(t/1000/60/60%24);
+    	var m=Math.floor(t/1000/60%60);
+    	var s=Math.floor(t/1000%60);
+    	if(h < 10){
+    		h = '0' + h;
+    	}
+    	if(m < 10){
+    		m = '0' + m;
+    	}
+    	if(s < 10){
+    		s = '0' + s;
+    	}
+    	$('.hour').html(h);
+    	$('.minute').html(m);
+    	$('.second').html(s)
 	}
-	setInterval(gettime,0);
+	setInterval(GetRTime,0);
 })
