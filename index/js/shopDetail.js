@@ -8,3 +8,10 @@ $(function(){
         paginationClickable:true
     });
 })
+//点击收藏
+$(function(){
+	$('.conllect').on('touchstart',function(event){
+		event.preventDefault();
+		$('.conllect>img').attr('src','shopDetail_images/collection2@2x.png');
+	})
+})

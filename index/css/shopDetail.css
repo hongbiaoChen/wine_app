@@ -39,6 +39,7 @@
 	min-height: 80px;
 	background-color: #fff;
 	overflow: hidden;
+	/*position: relative;*/
 }
 .shopIntro .introPrice .price{
 	margin:8px 0px 8px 0px;
@@ -71,6 +72,33 @@
 .shopIntro .introPrice,.shopIntro .other{
 	margin-left: 7px;
 }
+/*收藏分享按钮*/
+.shopIntro>.conllect,.shopIntro>.share{
+	display: inline-block;
+	width: 25px;
+	/*line-height: 22px;*/
+	height: 40px;
+	text-align: center;
+	position: fixed;
+}
+.shopIntro>.conllect{
+	right:43px;
+	top:260px;
+}
+.shopIntro>.share{
+	right:5px;
+	top:260px;
+}
+.shopIntro>.conllect>img,.shopIntro>.share>img{
+	width: 22px;
+	height: 22px;
+	vertical-align: bottom;
+}
+.shopIntro>.conllect>span,.shopIntro>.share>span{
+	display: block;
+	font-size: 12px;
+	color:#4d4d4d;
+}
 /*购买可得积分*/
 #main .getscore{
 	display: block;
@@ -85,6 +113,8 @@
 	vertical-align: middle;
 	margin-left: 7px;
 	margin-right:5px;
+	width: 30px;
+	height: 15px;
 }
 #main .getscore>span:last-child{
 	float: right;
@@ -98,6 +128,7 @@
 	line-height: 30px;
 	background-color: #fff;
 	margin-top: 10px;
+	border-bottom:1px solid #ccc;
 }
 #main .assesstitle>span:first-child{
 	font-size: 13px;
@@ -111,4 +142,170 @@
 }
 #main .assesstitle .many{
 	color: #D3AC65;
+}
+/*评价详情*/
+#main .assessOut{
+	width: 100%;
+	min-height: 200px;
+	background-color: #fff;
+}
+#main .assessOut .assessContent{
+	width: 94%;
+	margin: 0 auto;
+}
+.assessContent .startpicOut{
+	margin:5px 0px 5px 0px;
+}
+.assessContent .startPic>img{
+	width: 10px;
+	height: 10px;
+	vertical-align: middle;
+}
+.assessContent .assessUser{
+	float: right;
+}
+.assessContent .assesswrite{
+	color: #4d4d4d;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.assessContent .assessPic>img{
+	width: 24%;
+	height: 80px;
+}
+.assessContent .havePic{
+	display: block;
+	margin:0 auto;
+	width: 90px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	border:1px solid #D3AC65;
+	border-radius: 8px;
+	font-size: 12px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+/*店铺详况*/
+#main .sellshop{
+	width: 100%;
+	min-height: 150px;
+	background-color: #fff;
+	overflow: hidden;
+	/*margin-bottom:10px;*/
+}
+#main .sellshop .selllogo{
+	margin-top: 10px;
+}
+.sellshop .selllogo>img{
+	width: 80px;
+	height: 30px;
+	float: left;
+	margin:0px 5px 0px 5px;
+}
+.selllogo>p:nth-child(2){
+	color:#000;
+	font-size:13px;
+}
+.selllogo>p:last-child{
+	color:#999;
+	font-size: 12px;
+}
+.sellshop .allnumber{
+	margin:11px 0px 11px 0px;
+}
+.sellshop .allnumber>a{
+	display: inline-block;
+	width: 31%;
+	text-align: center;
+}
+.sellshop .allnumber>a>.amount{
+	font-size: 13px;
+	color: #4d4d4d;
+}
+.sellshop .allnumber>a>span:last-child{
+	display: block;
+	font-size: 12px;
+	color: #999;
+}
+/*联系供应商*/
+.sellshop .kefu{
+	width: 100%;
+	text-align: center;
+}
+.sellshop .kefu>a{
+	display: inline-block;
+	width: 148px;
+	height: 30px;
+	line-height: 30px;
+	border:1px solid #D0D0D0;
+	border-radius: 5px;
+}
+.sellshop .kefu>a:first-child{
+	margin-right:8px;
+}
+.sellshop .kefu>a>img{
+	width: 13px;
+	height: 13px;
+	vertical-align:middle;
+	margin-right: 10px;
+}
+.sellshop .kefu>a>span{
+	font-size: 12px;
+	color:#666;
+}
+/*大图展示*/
+#main .bigPic{
+	width: 100%;
+	min-height: 200px;
+}
+/*页面底部*/
+#footer .footer{
+	width: 100%;
+	height: 49px;
+	/*line-height: 60px;*/
+	background-color: #fff;
+	position: fixed;
+	bottom:0px;
+	font-size: 0px;
+}
+.footer>a{
+	display: inline-block;
+}
+.footer>a>img{
+	width: 22px;
+	height: 22px;
+	vertical-align: bottom;
+}
+.footer>a>span{
+	display: block;
+	font-size: 12px;
+}
+.footer>a:first-child,.footer>a:nth-child(2){
+	width: 20%;
+	height: 40px;
+	/*line-height: 50px;*/
+	text-align: center;
+	margin-top: 5px;
+}
+.footer>a:first-child{
+	border-right: 1px solid #CCCCCC;
+	box-sizing:border-box;
+}
+.footer>a:nth-child(3),.footer>a:last-child{
+	width: 30%;
+	height: 49px;
+	line-height: 49px;
+	text-align: center;
+	vertical-align: top;
+}
+.footer>a:nth-child(3){
+	background-color: #F3EEE1;
+	color:#d4ac65;
+	font-size: 12px;
+}
+.footer>a:last-child{
+	background-color: #D3AC65;
+	color: #fff;
+	font-size: 12px;
 }
