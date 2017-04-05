@@ -12,6 +12,26 @@ $(function(){
 $(function(){
 	$('.conllect').on('touchstart',function(event){
 		event.preventDefault();
-		$('.conllect>img').attr('src','shopDetail_images/collection2@2x.png');
+        var imgsrc = $('.conllect>img').attr('src');
+        if(imgsrc=='shopDetail_images/collectiong@2x.png'){
+            $('.conllect>img').attr('src','shopDetail_images/collection2@2x.png');
+        }else{
+            $('.conllect>img').attr('src','shopDetail_images/collectiong@2x.png');
+        }
 	})
+})
+// 点击获得更多积分
+$(function(){
+    $('.getscore').on('touchstart',function(event){
+        event.preventDefault();
+        $('.mask').fadeIn();
+    });
+    $(".finish").on('touchstart',function(event){
+        event.preventDefault;
+        $('.mask').fadeOut();
+    })
+})
+// 点击进入商品评价页面
+$('.assesstitle').on('touchstart',function(){
+    location.href = "shopingAssess.html";
 })
