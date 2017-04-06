@@ -26,6 +26,25 @@ $(function(){
 		$(id).val("");
 	})
 })
+//点击登录按钮，发起异步请求，实现异步的用户登录
+$('.isSure').on('touchstart',function(event){
+	event.preventDefault();
+	var mobile = $('#textIn').val();
+	var pwd = $('#wordIn').val();
+	$.ajax({
+		type:'post',
+		url:'http://192.168.0.107:8080/login/loginByMobliePwd',
+		data:{mobile:mobile,pwd:pwd},
+		success:function(result){
+			console.log(result);
+		}
+	})
+})
+
+
+
+
+
 
 //重置
 //点击重置按钮，显示登录页面
