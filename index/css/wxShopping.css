@@ -1,0 +1,180 @@
+/*轮播样式*/
+#top .top{
+	width: 100%;
+	height: 180px;
+	position: relative;
+}
+.swiper-container {
+   height: 180px;
+   width: 100%;
+}
+#top .top img{
+	width: 100%;
+	height: 180px;
+}
+.top .pagination {
+   position: absolute;
+   left: 0;
+   text-align: center;
+   bottom:5px;
+   width: 100%;
+   z-index: 2;
+}
+.swiper-pagination-switch {   
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   border-radius: 10px;
+   background: #999;
+   box-shadow: 0px 1px 2px #555 inset;
+   margin: 0 3px;
+   cursor: pointer;
+}
+.swiper-active-switch {
+   background: #fff;
+}
+/*头部套餐说明*/
+#top .taocan{
+   text-align: center;
+   overflow: hidden;
+   margin-bottom: 37px;
+}
+#top .taocan>p:first-child{
+   font-size: 17px;
+   font-family: PingFangTC-Semibold;
+   color: #702900;
+   margin-top: 25px;
+}
+#top .taocan>p:nth-child(2){
+   font-size: 12px;
+   font-family: PingFangTC-Thin;
+   color: #702900;
+   margin-top: 15px;
+   margin-bottom: 10px;
+}
+.taocan>.gift{
+   width: 280px;
+   height: 60px;
+   border:1px solid #fff;
+   margin:0 auto;
+   font-size: 12px;
+   font-family: STHeitiSC-Light,PingFangTC-Thin;
+   color: #d3ac65;
+}
+.taocan>.gift>p:first-child{
+   margin: 8px 0px 8px 0px;
+}
+/*套餐展示*/
+#main .drinkingShow{
+   display: block;
+   width: 96%;
+   min-height:260px;
+   margin:0 auto; 
+   margin-bottom: 20px;
+}
+.drinkingShow>img{
+   width: 100%;
+   height: 200px;
+   vertical-align: bottom;
+}
+.drinkingShow .tancanIntro{
+   width: 100%;
+   min-height: 60px;
+   overflow: hidden;
+   background-color: #fff;
+   position: relative;
+}
+.tancanIntro>p:first-child{
+   font-family: PingFangTC-Thin;
+   font-size: 15px;
+   color:#d3ac65;
+   margin-top:6px;
+   margin-bottom: 5px;
+   margin-left: 8px;
+}
+.tancanIntro>p:nth-child(2){
+   font-size: 12px;
+   margin-left: 8px;
+   color:#d3ac65;
+}
+.tancanIntro>.price{
+   position: absolute;
+   top: 11px;
+   right:10px;
+   font-size: 17px;
+   font-family: PingFangTC-Thin;
+}
+/*酒具*/
+.jiuju>p:first-child{
+   text-align: center;
+   font-size: 17px;
+   font-family: PingFangTC-ULtralight;
+   margin-bottom: 20px;
+}
+.jiuju>.equipment{
+   width: 96%;
+   margin:0 auto;
+}
+.jiuju>.equipment>a{
+   display: inline-block;
+   width: 45%;
+   min-height: 110px;
+   margin-bottom: 30px;
+   position: relative;
+}
+.jiuju>.equipment>a:nth-child(even){
+   float:right;
+}
+.jiuju>.equipment>a>img{
+   width: 100%;
+   height: 90px;
+   vertical-align: bottom;
+}
+.jiuju>.equipment>a>span{
+   display: inline-block;
+   width: 100%;
+   height: 20px;
+   line-height: 20px;
+   text-align: center;
+   color: #fff;
+   font-size: 12px;
+   font-family: PingFangTC-ULtralight;
+   background-color: #D3AC65;
+   margin-top: -1px;
+}
+.jiuju>.equipment>a>.mask{
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+   background-color: #000;
+   opacity: 0.6;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   display: none;
+}
+/*页面尾部*/
+.footer{
+   text-align: center;
+}
+.footer>.contact>span{
+   display: inline-block;
+   width: 69px;
+   height: 30px;    
+   line-height: 30px;
+   text-align: center;
+   font-size: 14px;
+   color: #666;
+   font-family: PingFangSC-Regular;
+}
+.footer>.contact>span:nth-child(2){
+   border-left: 1px solid #CCCCCC;
+   border-right: 1px solid #ccc;
+   box-sizing:border-box;
+   width: 80px;
+}
+.footer>.company{
+   margin-top: 23px;
+   font-size: 14px;
+   color: #666;
+}
