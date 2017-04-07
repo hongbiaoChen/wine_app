@@ -1,23 +1,24 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/moreGift.css">
+	<link rel="stylesheet" href="/index/css/common.css">
+	<link rel="stylesheet" href="/index/css/moreGift.css">
 </head>
 <body>
 	<header id = "top">
 		<div class = "top">
-			<img src="VIPClub_images/301549441078143590.jpg" alt="" class = "logo">
+			<img src="/index/VIPClub_images/301549441078143590.jpg" alt="" class = "logo">
 			<p>会员俱乐部</p>
 			<p>积分越高，所得特权就越多</p>
 		</div>
 	</header>
 	<section id = "main">
 		<div class = "vipNowPower">
-			<img src="VIPPower_images/280721501213663479.png" alt="" class = "arrow">
+			<img src="/index/VIPPower_images/280721501213663479.png" alt="" class = "arrow">
 			<div class = "outsize">
 				<span>
 					<img src = "VIPClub_images/pic.png" alt="">

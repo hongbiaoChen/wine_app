@@ -1,13 +1,14 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" href="css/idangerous.swiper.css">
-	<link rel="stylesheet" href="css/idangerous.swiper.3dflow.css">
+	<link rel="stylesheet" href="/index/css/common.css">
+	<link rel="stylesheet" href="/index/css/index.css">
+	<link rel="stylesheet" href="/index/css/idangerous.swiper.css">
+	<link rel="stylesheet" href="/index/css/idangerous.swiper.3dflow.css">
 </head>
 <body>
 		<!-- 1、页面顶部:top -->
@@ -17,8 +18,8 @@
 			<div class = "top">
 				<div class="swiper-container">
       				<div class="swiper-wrapper">
-       					<!-- <div class="swiper-slide"> <img src="shoping_images/201694178817165460.png"> </div>
-        				<div class="swiper-slide"> <img src="shoping_images/201694178817165460.png"> </div>  -->
+       					<!-- <div class="swiper-slide"> <img src="/index/shoping_images/201694178817165460.png"> </div>
+        				<div class="swiper-slide"> <img src="/index/shoping_images/201694178817165460.png"> </div>  -->
          			</div>
 				</div>
 				<div class="pagination"></div>
@@ -28,25 +29,25 @@
 				<ul class = "lf">
 					<li class = "lankmask">
 						<a href="#">
-							<img src="images/sign@2x.png" alt="">
+							<img src="/index/images/sign@2x.png" alt="">
 						</a>
 						<p>签到</p>
 					</li>
 					<li class = "oncekill">
 						<a href="#">
-							<img src="images/miaosha@2x.png" alt="">
+							<img src="/index/images/miaosha@2x.png" alt="">
 						</a>
 						<p>秒杀</p>
 					</li>
 					<li>
 						<a href="#">
-							<img src="images/Pizza@2x.png" alt="">
+							<img src="/index/images/Pizza@2x.png" alt="">
 						</a>
 						<p>拼团</p>
 					</li>
 					<li>
 						<a href="#">
-							<img src="images/Diamond@2x.png" alt="">
+							<img src="/index/images/Diamond@2x.png" alt="">
 						</a>
 						<p>个性化</p>
 					</li>
@@ -64,59 +65,59 @@
 			<div class="swiper-container-1 thumbs-cotnainer">
 				<div class="swiper-wrapper" id = "maintaocan">
 					<!-- <div class="swiper-slide ">
-						<img src="images/pic1@2x.png" alt="">
+						<img src="/index/images/pic1@2x.png" alt="">
 					</div>
 					<div class="swiper-slide ">
-						<img src="images/pic2@2x.png" alt="">
+						<img src="/index/images/pic2@2x.png" alt="">
 					</div>
 					<div class="swiper-slide ">
-						<img src="images/pic3@2x.png" alt="">
+						<img src="/index/images/pic3@2x.png" alt="">
 					</div>
 					<div class="swiper-slide ">
-						<img src="images/pic3@2x.png" alt="">
+						<img src="/index/images/pic3@2x.png" alt="">
 					</div> -->
 				</div>
 			</div>
 			<!-- 秒杀单品 -->
 			<p class = "packTitle seckillTile">—— 秒杀单品 ——</p>
 			<p class = "killOrder">
-				<img src="images/pic_miaosha@2x.png" alt="">
+				<img src="/index/images/pic_miaosha@2x.png" alt="">
 				<span>每日24时准时换新</span>
 			</p>
 			<div class = "killShopOut">
 				<div class = "swiper-wrapper">
 					<!-- <a href="#" class = "swiper-slide">
-						<img src="images/killshow.png" alt="">
+						<img src="/index/images/killshow.png" alt="">
 						<p class = "firstPrice">¥380</p>
 						<p class = "secondPrice">¥380</p>
 					</a>
 					<a href="#" class = "swiper-slide">
-						<img src="images/killshow.png" alt="">
+						<img src="/index/images/killshow.png" alt="">
 						<p class = "firstPrice">¥380</p>
 						<p class = "secondPrice">¥380</p>
 					</a>
 					<a href="#" class = "swiper-slide">
-						<img src="images/killshow.png" alt="">
+						<img src="/index/images/killshow.png" alt="">
 						<p class = "firstPrice">¥380</p>
 						<p class = "secondPrice">¥380</p>
 					</a>
 					<a href="#" class = "swiper-slide">
-						<img src="images/killshow.png" alt="">
+						<img src="/index/images/killshow.png" alt="">
 						<p class = "firstPrice">¥380</p>
 						<p class = "secondPrice">¥380</p>
 					</a>
 					<a href="#" class = "swiper-slide">
-						<img src="images/killshow.png" alt="">
+						<img src="/index/images/killshow.png" alt="">
 						<p class = "firstPrice">¥380</p>
 						<p class = "secondPrice">¥380</p>
 					</a>
 					<a href="#" class = "swiper-slide">
-						<img src="images/killshow.png" alt="">
+						<img src="/index/images/killshow.png" alt="">
 						<p class = "firstPrice">¥380</p>
 						<p class = "secondPrice">¥380</p>
 					</a>
 					<a href="#" class = "swiper-slide">
-						<img src="images/killshow.png" alt="">
+						<img src="/index/images/killshow.png" alt="">
 						<p class = "firstPrice">¥380</p>
 						<p class = "secondPrice">¥380</p>
 					</a> -->
@@ -149,7 +150,7 @@
 			<div class = "cicleOut">
 				<p class = "packTitle seckillTile">—— 热门文章 ——</p>
 				<!-- <div class = "picCircle">
-					<img src="images/wen1@2x.png" alt="" class="lf">
+					<img src="/index/images/wen1@2x.png" alt="" class="lf">
 					<div class = "circleintroduce">
 						<p>年度回顾 | 一整年的套路都在这里了，当然也有礼物</p>
 						<p>
@@ -159,7 +160,7 @@
 					</div>
 				</div>
 				<div class = "picCircle">
-					<img src="images/wen2@2x.png" alt="" class="lf">
+					<img src="/index/images/wen2@2x.png" alt="" class="lf">
 					<div class = "circleintroduce">
 						<p>年度回顾 | 一整年的套路都在这里了，当然也有礼物</p>
 						<p>
@@ -169,7 +170,7 @@
 					</div>
 				</div>
 				<div class = "picCircle">
-					<img src="images/wen3@2x.png" alt="" class="lf">
+					<img src="/index/images/wen3@2x.png" alt="" class="lf">
 					<div class = "circleintroduce">
 						<p>年度回顾 | 一整年的套路都在这里了，当然也有礼物</p>
 						<p>
@@ -186,7 +187,7 @@
 				<div class = "likeGuest lf">
 					<div class = "likeIn">
 						<p>
-							<img src="images/like1@2x.png" alt="">
+							<img src="/index/images/like1@2x.png" alt="">
 						</p>
 						<p>法国原装进口正品保障</p>
 						<p>送礼品袋</p>
@@ -196,14 +197,14 @@
 						</p>
 						<p>
 							200 人已付款
-							<span class = "morelike" data-toggle = "item" href = "A"><img src="images/264704695580947598.png" alt=""></span>
+							<span class = "morelike" data-toggle = "item" href = "A"><img src="/index/images/264704695580947598.png" alt=""></span>
 						</p>
 					</div>
 				</div>
 				<div class = "likeGuest lf">
 					<div class = "likeIn">
 						<p>
-							<img src="images/like1@2x.png" alt="">
+							<img src="/index/images/like1@2x.png" alt="">
 						</p>
 						<p>法国原装进口正品保障</p>
 						<p>送礼品袋</p>
@@ -213,7 +214,7 @@
 						</p>
 						<p>
 							200 人已付款
-							<span class = "morelike" data-toggle = "item" href = "B"><img src="images/264704695580947598.png" alt=""></span>
+							<span class = "morelike" data-toggle = "item" href = "B"><img src="/index/images/264704695580947598.png" alt=""></span>
 						</p>
 					</div>
 				</div>
@@ -232,31 +233,31 @@
 		<footer id="footer">
 			<!-- <div class = "footnav">
 				<div>
-					<p><img src="images/shouye@2x.png" alt="" class = "shouye"></p>
+					<p><img src="/index/images/shouye@2x.png" alt="" class = "shouye"></p>
 					<p>首页</p>
 				</div>
 				<div id = "shopPage">
-					<p><img src="images/Wine@2x.png" alt="" class = "shangcheng"></p>
+					<p><img src="/index/images/Wine@2x.png" alt="" class = "shangcheng"></p>
 					<p>商城</p>
 				</div>
 				<div>
-					<p><img src="images/store@2x.png" alt="" class = "meijiu"></p>
+					<p><img src="/index/images/store@2x.png" alt="" class = "meijiu"></p>
 					<p>美酒</p>
 				</div>
 				<div>
-					<p><img src="images/Champaign-Glasses@2x.png" alt="" class = "shequ"></p>
+					<p><img src="/index/images/Champaign-Glasses@2x.png" alt="" class = "shequ"></p>
 					<p>社区</p>
 				</div>
 				<div>
-					<p><img src="images/mine@2x.png" alt=""></p>
+					<p><img src="/index/images/mine@2x.png" alt=""></p>
 					<p>我的</p>
 				</div>
 			</div> -->
 		</footer>
-	<script src = "js/jquery-1.11.3.js"></script>
-	<script src = "js/idangerous.swiper-2.0.min.js"></script>
-	<script src = "js/idangerous.swiper.3dflow-2.0.js"></script>
-	<script src = "js/vw-simulate.js"></script>
-	<script src = "js/index.js"></script>
+	<script src = "/index/js/jquery-1.11.3.js"></script>
+	<script src = "/index/js/idangerous.swiper-2.0.min.js"></script>
+	<script src = "/index/js/idangerous.swiper.3dflow-2.0.js"></script>
+	<script src = "/index/js/vw-simulate.js"></script>
+	<script src = "/index/js/index.js"></script>
 </body>
 </html>

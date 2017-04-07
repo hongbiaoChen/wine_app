@@ -1,15 +1,16 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/groupbuy.css">
+	<link rel="stylesheet" href="/index/css/common.css">
+	<link rel="stylesheet" href="/index/css/groupbuy.css">
 </head>
 <body>
 	<header id = "top">
-		<img src="groupbuy_images/lance.png" alt="" class = "topTitle">
+		<img src="/index/groupbuy_images/lance.png" alt="" class = "topTitle">
 		<p>没看到自己心仪的团购？</p>
 		<p>那不如挑一款属于自己的好酒，寻找同道中人！</p>
 		<!-- 发起团购按钮 -->
@@ -20,7 +21,7 @@
 	<section id = "main">
 		<!-- 参团商品 -->
 		<div class = "killshop">
-			<img src="onceKill_images/like1@2x.png" alt="">
+			<img src="/index/onceKill_images/like1@2x.png" alt="">
 			<div class = "shopIntro">
 				<p>【酒品会】侯伯王酒庄干红葡萄酒Chateau Haut-Brion,Pessac-Leogn...</p>
 				<p class = "gorob">
@@ -37,7 +38,7 @@
 			</div>
 		</div>
 		<div class = "killshop">
-			<img src="onceKill_images/like1@2x.png" alt="">
+			<img src="/index/onceKill_images/like1@2x.png" alt="">
 			<div class = "shopIntro">
 				<p>【酒品会】侯伯王酒庄干红葡萄酒Chateau Haut-Brion,Pessac-Leogn...</p>
 				<p class = "gorob">
@@ -54,7 +55,7 @@
 			</div>
 		</div>
 		<div class = "killshop">
-			<img src="onceKill_images/like1@2x.png" alt="">
+			<img src="/index/onceKill_images/like1@2x.png" alt="">
 			<div class = "shopIntro">
 				<p>【酒品会】侯伯王酒庄干红葡萄酒Chateau Haut-Brion,Pessac-Leogn...</p>
 				<p class = "gorob">
@@ -71,7 +72,7 @@
 			</div>
 		</div>
 		<div class = "killshop">
-			<img src="onceKill_images/like1@2x.png" alt="">
+			<img src="/index/onceKill_images/like1@2x.png" alt="">
 			<div class = "shopIntro">
 				<p>【酒品会】侯伯王酒庄干红葡萄酒Chateau Haut-Brion,Pessac-Leogn...</p>
 				<p class = "gorob">
@@ -88,7 +89,7 @@
 			</div>
 		</div>
 	</section>
-	<script src = "js/jquery-1.11.3.js"></script>
-	<script src = "js/onceKill.js"></script>
+	<script src = "/index/js/jquery-1.11.3.js"></script>
+	<script src = "/index/js/onceKill.js"></script>
 </body>
 </html>

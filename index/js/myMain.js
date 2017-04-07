@@ -8,7 +8,7 @@ $(function(){
 $(function(){
 	$("#footer").load("footer.html",function(){
 		console.log('success');
-		$(".mine").attr("src","images/icon_mine@2x.png");
+		$(".mine").attr("src","/index/images/icon_mine@2x.png");
 		$("#mainPage").on('touchstart',function(){
 			location.href = "index.html";
 		});

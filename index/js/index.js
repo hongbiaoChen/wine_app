@@ -159,7 +159,7 @@ $(function(){
                         </p>
                         <p>
                             200 人已付款
-                            <span class = "morelike" data-toggle = "item" href = "likeInMask${LikeIndex}"><img src="images/264704695580947598.png" alt=""></span>
+                            <span class = "morelike" data-toggle = "item" href = "likeInMask${LikeIndex}"><img src="/index/images/264704695580947598.png" alt=""></span>
                         </p>
                     </div>
                     <!-- 遮罩层 -->
@@ -201,7 +201,7 @@ $(function(){
 $(function(){
     $("#footer").load('footer.html',function(){
         //console.log("success");
-        $(".shouye").attr("src","images/599877663744535913.png");
+        $(".shouye").attr("src","/index/images/599877663744535913.png");
         $("#shopPage").on('touchstart',function(){
             location.href = "shop.html";
         });

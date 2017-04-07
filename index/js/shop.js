@@ -27,7 +27,7 @@ $(".tabs a").click(function(e){
 $(function(){
     $("#footer").load('footer.html',function(){
         //console.log("success");
-        $(".shangcheng").attr("src","images/icon_Wine@2x.png");
+        $(".shangcheng").attr("src","/index/images/icon_Wine@2x.png");
         $("#mainPage").on('touchstart',function(){
             location.href = "index.html";
         });

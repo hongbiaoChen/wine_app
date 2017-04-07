@@ -1,12 +1,13 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/shopDetail.css">
-	<link rel="stylesheet" href="css/idangerous.swiper.css">
+	<link rel="stylesheet" href="/index/css/common.css">
+	<link rel="stylesheet" href="/index/css/shopDetail.css">
+	<link rel="stylesheet" href="/index/css/idangerous.swiper.css">
 </head>
 <body>
 	<header id = "top">
@@ -14,9 +15,9 @@
 		<div class = "top">
 			<div class="swiper-container">
       			<div class="swiper-wrapper">
-       				<div class="swiper-slide"> <img src="shoping_images/201694178817165460.png"></div>
-        			<div class="swiper-slide"> <img src="shoping_images/201694178817165460.png"></div> 
-        			<div class="swiper-slide"> <img src="shoping_images/201694178817165460.png"></div>
+       				<div class="swiper-slide"> <img src="/index/shoping_images/201694178817165460.png"></div>
+        			<div class="swiper-slide"> <img src="/index/shoping_images/201694178817165460.png"></div> 
+        			<div class="swiper-slide"> <img src="/index/shoping_images/201694178817165460.png"></div>
          		</div>
 			</div>
 			<div class="pagination"></div>
@@ -36,11 +37,11 @@
 			</p>
 			<!-- 收藏分享按钮 -->
 			<a href="#" class = "conllect">
-				<img src="shopDetail_images/collectiong@2x.png" alt="">
+				<img src="/index/shopDetail_images/collectiong@2x.png" alt="">
 				<span>收藏</span>
 			</a>
 			<a href="#" class = "share">
-				<img src="shopDetail_images/share@2x.png" alt="">
+				<img src="/index/shopDetail_images/share@2x.png" alt="">
 				<span>分享</span>
 			</a>
 		</div>
@@ -48,7 +49,7 @@
 	<section id = "main">
 		<!-- 购买可得积分 -->
 		<a class = "getscore">
-			<img src="shopDetail_images/btn_sign@2x.png" alt="">
+			<img src="/index/shopDetail_images/btn_sign@2x.png" alt="">
 			<span>购买可获得60会员积分</span>
 			<span>&gt;</span>
 		</a>
@@ -62,11 +63,11 @@
 			<div class = "assessContent">
 				<p class = "startpicOut">
 					<span class = "startPic">
-						<img src="shopDetail_images/star@2x.png" alt="">
-						<img src="shopDetail_images/star@2x.png" alt="">
-						<img src="shopDetail_images/star@2x.png" alt="">
-						<img src="shopDetail_images/star@2x.png" alt="">
-						<img src="shopDetail_images/star@2x.png" alt="">
+						<img src="/index/shopDetail_images/star@2x.png" alt="">
+						<img src="/index/shopDetail_images/star@2x.png" alt="">
+						<img src="/index/shopDetail_images/star@2x.png" alt="">
+						<img src="/index/shopDetail_images/star@2x.png" alt="">
+						<img src="/index/shopDetail_images/star@2x.png" alt="">
 					</span>
 					<span class = "assessUser">c****e</span>
 				</p>
@@ -84,7 +85,7 @@
 		<div class = "sellshop">
 			<!-- logo -->
 			<div class = "selllogo">
-				<img src="shopDetail_images/wef.png" alt="">
+				<img src="/index/shopDetail_images/wef.png" alt="">
 				<p>酒品会旗舰店</p>
 				<p>轩尼诗理查专卖店</p>
 			</div>
@@ -106,29 +107,29 @@
 			<!-- 联系供应商 -->
 			<div class = "kefu">
 				<a href="#">
-					<img src="shopDetail_images/contact@2x.png" alt="">
+					<img src="/index/shopDetail_images/contact@2x.png" alt="">
 					<span>联系供应商</span>
 				</a>
 				<a href="#">
-					<img src="shopDetail_images/store@2x.png" alt="">
+					<img src="/index/shopDetail_images/store@2x.png" alt="">
 					<span>进入店铺</span>
 				</a>
 			</div>
 		</div>
 		<!-- 图片展示 -->
 		<div class = "bigPic">
-			<img src="shopDetail_images/xiangqingye.png" alt="">
+			<img src="/index/shopDetail_images/xiangqingye.png" alt="">
 		</div>
 		<div style = "width:100%;height:80px;"></div>
 	</section>
 	<footer id = "footer">
 		<div class = "footer">
 			<a href="#">
-				<img src="shopDetail_images/Supplier@2x.png" alt="">
+				<img src="/index/shopDetail_images/Supplier@2x.png" alt="">
 				<span>供应商</span>
 			</a>
 			<a href="#">
-				<img src="shopDetail_images/buying@2x.png" alt="">
+				<img src="/index/shopDetail_images/buying@2x.png" alt="">
 				<span>购物车</span>
 				<span class = "count">1</span>
 			</a>
@@ -140,14 +141,14 @@
 	<div class = "mask">
 		<div class = "motai">
 			<p>
-				<img src="shopDetail_images/btn_sign@2x.png" alt="">
+				<img src="/index/shopDetail_images/btn_sign@2x.png" alt="">
 				<span>购买可获得60会员积分</span>
 			</p>
 			<a href="#" class = "finish">完成</a>
 		</div>
 	</div>
-	<script src = "js/jquery-1.11.3.js"></script>
-	<script src = "js/idangerous.swiper-2.0.min.js"></script>
-	<script src = "js/shopDetail.js"></script>
+	<script src = "/index/js/jquery-1.11.3.js"></script>
+	<script src = "/index/js/idangerous.swiper-2.0.min.js"></script>
+	<script src = "/index/js/shopDetail.js"></script>
 </body>
 </html>

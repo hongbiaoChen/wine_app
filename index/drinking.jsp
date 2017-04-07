@@ -1,13 +1,14 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/drinking.css">
-	<link rel="stylesheet" href="css/idangerous.swiper.css">
-	<link rel="stylesheet" href="css/dropload.css">
+	<link rel="stylesheet" href="/index/css/common.css">
+	<link rel="stylesheet" href="/index/css/drinking.css">
+	<link rel="stylesheet" href="/index/css/idangerous.swiper.css">
+	<link rel="stylesheet" href="/index/css/dropload.css">
 </head>
 <body>
 	<header id = "top">
@@ -23,19 +24,19 @@
 			<div  class = "hotbrand">
 				<div class = "swiper-wrapper" id = "hotbrandInsize">
 					<!-- <div href="#" class="swiper-slide ">
-						<a><img src="deliciousDrink_images/logo1@2x.png" alt=""></a>
+						<a><img src="/index/deliciousDrink_images/logo1@2x.png" alt=""></a>
 					</div>
 					<div href="#" class="swiper-slide ">
-						<a><img src="deliciousDrink_images/logo2@2x.png" alt=""></a>
+						<a><img src="/index/deliciousDrink_images/logo2@2x.png" alt=""></a>
 					</div>
 					<div href="#" class="swiper-slide ">
-						<a><img src="deliciousDrink_images/logo3@2x.png" alt=""></a>
+						<a><img src="/index/deliciousDrink_images/logo3@2x.png" alt=""></a>
 					</div>
 					<div href="#" class="swiper-slide ">
-						<a><img src="deliciousDrink_images/logo4@2x.png" alt=""></a>
+						<a><img src="/index/deliciousDrink_images/logo4@2x.png" alt=""></a>
 					</div>
 					<div href="#"  class="swiper-slide ">
-						<a><img src="deliciousDrink_images/logo5@2x.png" alt=""></a>
+						<a><img src="/index/deliciousDrink_images/logo5@2x.png" alt=""></a>
 					</div> -->
 				</div>
 			</div>
@@ -66,44 +67,44 @@
 		<div class = "dring_classfly content">
 			<div class = "lists"></div>
 			<!-- <a>
-				<img src="deliciousDrink_images/logo_small1@2x.png" alt="">
+				<img src="/index/deliciousDrink_images/logo_small1@2x.png" alt="">
 				<span class = "classfly_introduce">
 					<p>卡洛斯</p>
 					<p>始于1563</p>
 				</span>
-				<img src="deliciousDrink_images/btn_shopping@2x.png" alt="">
+				<img src="/index/deliciousDrink_images/btn_shopping@2x.png" alt="">
 			</a>
 			<a>
-				<img src="deliciousDrink_images/logo_small1@2x.png" alt="">
+				<img src="/index/deliciousDrink_images/logo_small1@2x.png" alt="">
 				<span class = "classfly_introduce">
 					<p>卡洛斯</p>
 					<p>始于1563</p>
 				</span>
-				<img src="deliciousDrink_images/btn_shopping@2x.png" alt="">
+				<img src="/index/deliciousDrink_images/btn_shopping@2x.png" alt="">
 			</a>
 			<a>
-				<img src="deliciousDrink_images/logo_small1@2x.png" alt="">
+				<img src="/index/deliciousDrink_images/logo_small1@2x.png" alt="">
 				<span class = "classfly_introduce">
 					<p>卡洛斯</p>
 					<p>始于1563</p>
 				</span>
-				<img src="deliciousDrink_images/btn_shopping@2x.png" alt="">
+				<img src="/index/deliciousDrink_images/btn_shopping@2x.png" alt="">
 			</a>
 			<a>
-				<img src="deliciousDrink_images/logo_small1@2x.png" alt="">
+				<img src="/index/deliciousDrink_images/logo_small1@2x.png" alt="">
 				<span class = "classfly_introduce">
 					<p>卡洛斯</p>
 					<p>始于1563</p>
 				</span>
-				<img src="deliciousDrink_images/btn_shopping@2x.png" alt="">
+				<img src="/index/deliciousDrink_images/btn_shopping@2x.png" alt="">
 			</a>
 			<a>
-				<img src="deliciousDrink_images/logo_small1@2x.png" alt="">
+				<img src="/index/deliciousDrink_images/logo_small1@2x.png" alt="">
 				<span class = "classfly_introduce">
 					<p>卡洛斯</p>
 					<p>始于1563</p>
 				</span>
-				<img src="deliciousDrink_images/btn_shopping@2x.png" alt="">
+				<img src="/index/deliciousDrink_images/btn_shopping@2x.png" alt="">
 			</a> -->
 		</div>
 	</section>
@@ -111,30 +112,30 @@
 		<!-- <iframe frameborder=0 border=0 src="footer.html" mce_src="footer.html"></iframe>  -->
       <!-- <div class = "footnav">
          <div>
-            <p><img src="images/shouye@2x.png" alt="" class = "shouye"></p>
+            <p><img src="/index/images/shouye@2x.png" alt="" class = "shouye"></p>
             <p>首页</p>
          </div>
          <div>
-            <p><img src="images/Wine@2x.png" alt="" class = "shangcheng"></p>
+            <p><img src="/index/images/Wine@2x.png" alt="" class = "shangcheng"></p>
             <p>商城</p>
          </div>
          <div>
-            <p><img src="images/store@2x.png" alt="" class = "meijiu"></p>
+            <p><img src="/index/images/store@2x.png" alt="" class = "meijiu"></p>
             <p>美酒</p>
          </div>
          <div>
-            <p><img src="images/Champaign-Glasses@2x.png" alt="" class = "shequ"></p>
+            <p><img src="/index/images/Champaign-Glasses@2x.png" alt="" class = "shequ"></p>
             <p>社区</p>
          </div>
          <div>
-            <p><img src="images/mine@2x.png" alt=""></p>
+            <p><img src="/index/images/mine@2x.png" alt=""></p>
             <p>我的</p>
          </div>
       </div> -->
 	</footer>
-	<script src = "js/jquery-1.11.3.js"></script>
-	<script src = "js/idangerous.swiper-2.0.min.js"></script>
-	<script src = "js/dropload.min.js"></script>
-	<script src = "js/drinking.js"></script>
+	<script src = "/index/js/jquery-1.11.3.js"></script>
+	<script src = "/index/js/idangerous.swiper-2.0.min.js"></script>
+	<script src = "/index/js/dropload.min.js"></script>
+	<script src = "/index/js/drinking.js"></script>
 </body>
 </html>
