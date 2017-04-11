@@ -73,10 +73,10 @@
 				</p>
 				<p class = "assesswrite">在口中留存良久，渐渐披露其味道的精华，舌头上留下点点浓郁的果甜味道,	和谐有致。滋味:在口中留存良久，渐渐披露其味道的精华，舌头上留下点点浓郁。</p>
 				<div class = "assessPic">
-					<img src = "shopDetail_images/like1@2x.png" alt="">
-					<img src = "shopDetail_images/like1@2x.png" alt="">
-					<img src = "shopDetail_images/like1@2x.png" alt="">
-					<img src = "shopDetail_images/like1@2x.png" alt="">
+					<img src = "/index/shopDetail_images/like1@2x.png" alt="">
+					<img src = "/index/shopDetail_images/like1@2x.png" alt="">
+					<img src = "/index/shopDetail_images/like1@2x.png" alt="">
+					<img src = "/index/shopDetail_images/like1@2x.png" alt="">
 				</div>
 				<a href="#" class = "havePic">查看有图评价</a>
 			</div>

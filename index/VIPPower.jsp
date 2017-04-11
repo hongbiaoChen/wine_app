@@ -44,7 +44,7 @@
 			<img src="/index/VIPPower_images/280721501213663479.png" alt="" class = "arrow">
 			<p class = "title">
 				<span class = "titleOne">当前等级专属特权</span>
-				<a href = "morePower.html" class = "morePower">更多专属特权 &gt;</a>
+				<a href = "morePower" class = "morePower">更多专属特权 &gt;</a>
 			</p>
 			<div class = "content">
 				<a href = "#">

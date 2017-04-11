@@ -103,6 +103,7 @@ body{
 	margin-top:15px;
 	border:2px solid #DABC82;
 	border-radius: 16px;
+	outline: none;
 }
 .resignOut .isSure{
 	background-color: #D3AD66;
@@ -130,7 +131,7 @@ body{
 	right: 0;
 	margin:0 auto;
 	top: 58px;
-	display: none;
+	display:none;
 }
 .signIn .mask>img{
 	margin:7px 0px 7px 0px;

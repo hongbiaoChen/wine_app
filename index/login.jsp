@@ -30,23 +30,28 @@
 			<div class = "signIn">
 				<img src="/index/login_images/triangle.png" alt="" class = "arrow">
 				<!-- 登录页内容 -->
-				<div class = "inputOut">
+				<form id="submitForm" class = "inputOut" action = "/member/loginByMobliePwd" method = "post">
 					<div class = "inputIn">
-						<input type="text" placeholder = "请输入手机号码" id = "textIn" class = "nowwell">
+						<input type="text" placeholder = "请输入手机号码" id = "textIn" class = "nowwell" name = "mobile">
 						<img src="/index/login_images/cancel.png" alt="" class = "delete" data-input = "textIn">
 					</div>
 					<div class = "inputIn">
-						<input type="password" placeholder = "请输入密码" id = "wordIn">
+						<input type="password" placeholder = "请输入密码" id = "wordIn" name = "pwd">
 						<img src="/index/login_images/cancel.png" alt="" class = "delete" data-input = "wordIn">
 					</div>
-					<a href="#" class = "isSure">登录</a>
+					<button class = "isSure" id = "signInSure" type="submit">确定</button>
 					<a href="#" class = "resign">重置密码</a>
 					<!-- 错误提示 -->
-					<div class = "mask">
-						<img src="/index/login_images/cancel@2x.png" alt="">
+					<!-- <div class = "mask">
+						<img src="/index/login_images/cancel@2x.png" alt="" class = "imgClose">
 						<p>账号或者密码错误</p>
+					</div> -->
+					<div class = "mask">
+						<img src="/index/login_images/cancel@2x.png" alt="" class = "imgClose"> 
+						<p id = "errormsg">${error}</p>
 					</div>
-				</div>
+					<input style="display:none;" name = "token" value="${token}">
+				</form>
 				<!-- 重置页内容 -->
 				<div class = "resignOut">
 					<div class = "inputIn">

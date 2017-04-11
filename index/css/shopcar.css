@@ -1,0 +1,194 @@
+#top .top{
+    width:100%;
+    min-height:150px;
+    background-color:#FAFAFA;
+    margin-bottom: 10px;
+}
+/*旗舰店*/
+.top .shopName{
+    width:100%;
+    min-height:40px;
+    line-height:40px;
+    color:#4d4d4d;
+    font-size:12px;
+}
+.top .shopName>.select{
+    width:18px;
+    height:18px;
+    vertical-align:middle;
+    margin-left: 8px;
+}
+.top .shopName>.shopPic{
+    width:13px;
+    height:13px;
+    vertical-align:middle;
+    margin:0px 8px 0px 8px;
+}
+.top .shopName>.getEdit{
+    float:right;
+    margin-right:8px;
+}
+.top .shopName>.getEdit>a{
+    color:#4d4d4d;
+}
+/*购物车商品*/
+.carbuy{
+    width: 100%;
+    min-height: 110px;
+    overflow: hidden;
+}
+.carbuy>.picLeft{
+    float: left;
+    margin-right:23px;
+}
+.carbuy>.picLeft>img:first-child{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin:0px 8px 0px 8px;
+}
+.carbuy>.picLeft>img:last-child{
+    width: 100px;
+    height:100px;
+    vertical-align: middle;
+}
+.shopDetail>.shoptype{
+    color:#4d4d4d;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right:4px;
+    /*height:34px;  
+    overflow: hidden;  
+     当字符串超过规定长度，显示省略符
+    text-overflow:ellipsis;  
+    white-space: nowrap;  */
+}
+.shopDetail>.shopprice{
+    margin-top:26px;
+}
+.shopDetail>.shopprice>span:first-child{
+    font-size: 13px;
+    margin-right:5px;
+}
+.shopDetail>.shopprice>span:nth-child(2){
+    font-size: 12px;
+    color:#999;
+    text-decoration: line-through;
+}
+.shopDetail>.shopprice>span:last-child{
+    font-size: 12px;
+    color:#4d4d4d;
+    float: right;
+    margin-right:8px;
+}
+/*购物车猜你喜欢*/
+#main .title{
+    text-align:center;
+    color:#ccc;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+#main .shopList>a{
+    display: inline-block;
+    width: 48%;
+    min-height: 245px;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom:4px;
+}
+#main .shopList>a:nth-child(even){
+    float:right;
+}
+#main .shopList>a>img{
+    width: 140px;
+    height:140px;
+    margin-top:8px;
+}
+.shopList .introduce{
+    display: block;
+    color:#4d4d4d;
+    font-size: 14px;
+    width: 140px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 3px;
+}
+.shopList .price{
+    display: block;
+    width: 140px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.shopList .price>span:first-child{
+    font-size: 13px;
+}
+.shopList .price>span:last-child{
+    font-size: 12px;
+    color:#ccc;
+}
+.shopList .sell{
+    display: block;
+    width: 140px;
+    margin:0 auto;
+    text-align: left;
+}
+.shopList .sell>span{
+    color: #A9A9A9;
+    font-size: 12px;
+}
+.shopList .sell>img{
+    width:17px; 
+    height:15px;
+    vertical-align: middle;
+    float: right;
+}
+/*尾部*/
+#footer>.footer{
+    width: 100%;
+    height:49px;
+    line-height: 49px;
+    background-color: #FAFAFA; 
+    position: fixed;
+    bottom:0px;
+}
+.footer>.allSelect>img{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-right:5px;
+}
+.footer>.allSelect>span{
+    font-size:14px;
+    color: #4d4d4d;
+}
+.footer>.allPrice{
+    display: inline-block;
+    float: right;
+}
+.footer>.allPrice>span:first-child{
+    font-size: 13px;
+    color:#4d4d4d;
+}
+.footer>.allPrice>span:nth-child(2){
+    font-size: 13px;
+}
+.footer>.allPrice>span:nth-child(3){
+    font-size: 13px;
+    color:#999;
+    margin-left: 3px;
+    margin-right:3px;
+}
+.footer>.allPrice>a:last-child{
+    display: inline-block;
+    width: 112px;
+    height:49px;
+    background-color: #d3ac65;
+    line-height:49px;
+    text-align: center;
+    color:#fff;
+    font-size: 13px; 
+}

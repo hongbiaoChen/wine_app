@@ -21,44 +21,44 @@
 			<img src="/index/VIPPower_images/280721501213663479.png" alt="" class = "arrow">
 			<div class = "outsize">
 				<span>
-					<img src = "VIPClub_images/pic.png" alt="">
+					<img src = "/index/VIPClub_images/pic.png" alt="">
 					<span class = "redbag">20元现金体验券</span>
 					<span class = "enjoy">一级会员专享</span>
 				</span>
 				<span>
-					<img src = "VIPClub_images/pic.png" alt="">
+					<img src = "/index/VIPClub_images/pic.png" alt="">
 					<span class = "redbag">VIP2 会员一次体验券</span>
 					<span class = "enjoy">二级会员专享</span>
 				</span>
 				<span>
-					<img src = "VIPClub_images/pic.png" alt="">
+					<img src = "/index/VIPClub_images/pic.png" alt="">
 					<span class = "redbag">原装意大利进口红酒</span>
 					<span class = "enjoy">三级会员专享</span>
 				</span>
 				<span>
-					<img src = "VIPClub_images/pic.png" alt="">
+					<img src = "/index/VIPClub_images/pic.png" alt="">
 					<span class = "redbag">原装意大利进口红酒</span>
 					<span class = "enjoy">四级会员专享</span>
 				</span>
 			</div>
 			<div class = "outsize">
 				<span>
-					<img src = "VIPClub_images/pic.png" alt="">
+					<img src = "/index/VIPClub_images/pic.png" alt="">
 					<span class = "redbag">20元现金体验券</span>
 					<span class = "enjoy">一级会员专享</span>
 				</span>
 				<span>
-					<img src = "VIPClub_images/pic.png" alt="">
+					<img src = "/index/VIPClub_images/pic.png" alt="">
 					<span class = "redbag">VIP2 会员一次体验券</span>
 					<span class = "enjoy">二级会员专享</span>
 				</span>
 				<span>
-					<img src = "VIPClub_images/pic.png" alt="">
+					<img src = "/index/VIPClub_images/pic.png" alt="">
 					<span class = "redbag">原装意大利进口红酒</span>
 					<span class = "enjoy">三级会员专享</span>
 				</span>
 				<span>
-					<img src = "VIPClub_images/pic.png" alt="">
+					<img src = "/index/VIPClub_images/pic.png" alt="">
 					<span class = "redbag">原装意大利进口红酒</span>
 					<span class = "enjoy">四级会员专享</span>
 				</span>
