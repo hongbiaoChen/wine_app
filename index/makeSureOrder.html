@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/makeSureOrder.css">
+</head>
+<body>
+	<header id = "top">
+		<!-- 收货人及地址 -->
+		<div class = "top">
+			<p class = "takeGoods">
+				<span>收货人:咖啡</span>
+				<span>13614009090</span>
+			</p>
+			<div class = "address">
+				<img src="makeSureOrder_images/address@2x.png" alt="">
+				<span>收货地址:广东省广州市海珠区基建路66号广东外贸大厦501室</span>
+				<img src="makeSureOrder_images/next@2x.png" alt="">
+			</div>
+			<p class = "getReplace">(收货不便时，可选择免费待收货客服)</p>
+		</div>
+	</header>
+	<section id = "main">
+		<!-- 下单商品 -->
+		<div class = "orderOut">
+			<div class = "sellcount">
+				<!-- 旗舰店 -->
+				<p class = "shopName">
+					<img src="shopcar_images/store@2x.png" alt="" class = "shopPic">
+					<span>酒品会旗舰店</span>
+				</p>
+				<!-- 商品 -->
+				<div class= "carbuy">
+					<img src="shopcar_images/like1@2x.png" alt="" class = "picLeft">
+					<div class = "shopDetail">
+						<p class = "shoptype">【酒品会】 侯伯王酒庄干红葡萄酒 Haut-Brion,Pessac-Leogn...</p>
+						<p class = "givetime">发货时间：卖家承诺48小时内发货</p>
+						<p class = "shopprice">
+							<span>¥599</span>
+							<span>x1</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class = "sellcount">
+				<!-- 旗舰店 -->
+				<p class = "shopName">
+					<img src="shopcar_images/store@2x.png" alt="" class = "shopPic">
+					<span>酒品会旗舰店</span>
+				</p>
+				<!-- 商品 -->
+				<div class= "carbuy">
+					<img src="shopcar_images/like1@2x.png" alt="" class = "picLeft">
+					<div class = "shopDetail">
+						<p class = "shoptype">【酒品会】 侯伯王酒庄干红葡萄酒 Haut-Brion,Pessac-Leogn...</p>
+						<p class = "givetime">发货时间：卖家承诺48小时内发货</p>
+						<p class = "shopprice">
+							<span>¥599</span>
+							<span>x1</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 配送方式 -->
+		<a href="#" class = "giveWay" id = "giveway">
+			<span>配送方式</span>
+			<span>快递免邮 &gt;</span>
+		</a>
+		<!-- 运费险 -->
+		<a href="#" class = "giveWay">
+			<span>运费险</span>
+			<span>未选择 &gt;</span>
+		</a>
+		<!-- 留言板 -->
+		<form class = "leaveMessage">
+			<span>买家留言 ：</span>
+			<textarea name="" class = "message" placeholder="选填：对本次交易的说明(建议填写已和买家协商一致)"></textarea>
+		</form>
+		<!-- 商品小计 -->
+		<p class = "allCount">
+			<span class = "countOut">
+				<span>共1件商品</span>
+				<span>小计：</span>
+				<span>¥599</span>
+			</span>
+		</p>
+	</section>
+	<footer id = "footer">
+		<!-- 合计以及提交订单 -->
+		<p class="allprice">
+			<span class="submitOrder">
+				<span>合计：</span>
+				<span>¥599</span>
+				<span>提交订单</span>
+			</span>
+		</p>
+	</footer>
+	<!-- 配送方式弹出框 -->
+	<div class="mask">
+		<div class = "selectway">
+			<p class = "selectTitle">配送方式</p>
+			<div class = "wayOne">
+				<span>快递 免邮</span>
+				<img src="shopcar_images/tuoyuan.png" alt="" class =  "select">
+			</div>
+			<a href="#" class="close">关闭</a>
+		</div>
+	</div>
+	<script src = "js/jquery-1.11.3.js"></script>
+	<script src = "js/makeSureOrder.js"></script>
+</body>
+</html>

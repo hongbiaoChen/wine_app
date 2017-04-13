@@ -1,0 +1,242 @@
+/*收货人及地址*/
+#top>.top{
+	width: 100%;
+	min-height: 100px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.top>.takeGoods{
+	margin:14px 0px 13px 40px;
+}
+.top>.takeGoods>span{
+	color: #4d4d4d;
+	font-size: 12px;
+}
+.top>.takeGoods>span:last-child{
+	float: right;
+	margin-right:12px;
+}
+/*地址*/
+.top>.address{
+	min-height: 20px;
+	margin-left: 18px;
+}
+.address>img:first-child{
+	width: 12px;
+	height: 16px;
+	margin-top: -25px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.address>span{
+	display: inline-block;
+	width: 80%;
+	font-size: 12px;
+	color: #4d4d4d;
+}
+.address>img:last-child{
+	width: 6px;
+	height: 13px;
+	vertical-align: middle;
+	float: right;
+	margin:11px 12px 0px 0px;
+}
+.top>.getReplace{
+	font-size: 12px;
+	margin-left: 40px;
+	margin-top: 4px;
+	margin-bottom: 9px;
+}
+/*下单商品*/
+#main>.orderOut{
+	width: 100%;
+	background-color: #fff;
+	margin-top:9px;
+	overflow: hidden;
+}
+.orderOut .shopName{
+    width:100%;
+    min-height:40px;
+    line-height:40px;
+    color:#4d4d4d;
+    font-size:12px;
+}
+.orderOut .shopName>.shopPic{
+    width:13px;
+    height:13px;
+    vertical-align:middle;
+    margin:0px 8px 0px 8px;
+}
+.carbuy{
+    width: 100%;
+    min-height: 110px;
+    overflow: hidden;
+}
+.carbuy>.picLeft{
+    float: left;
+    margin-right:23px;
+    width: 100px;
+    height:100px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.shopDetail>.shoptype{
+    color:#4d4d4d;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right:4px;
+}
+.shopDetail>.givetime{
+	font-size: 12px;
+	color: #f3b74a;
+}
+.shopDetail>.shopprice{
+    margin-top:16px;
+}
+.shopDetail>.shopprice>span:first-child{
+    font-size: 13px;
+}
+.shopDetail>.shopprice>span:last-child{
+    font-size: 12px;
+    color:#4d4d4d;
+    float: right;
+    margin-right:8px;
+}
+/*配送方式*/
+#main>.giveWay{
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fff;
+	border-top:1px solid #F3F3F3;
+	/*border-bottom:1px solid #F3F3F3;*/
+}
+.giveWay>span:first-child,.leaveMessage>span:first-child{
+	color: #4d4d4d;
+	font-size: 12px;
+	margin-left:8px;
+}
+.giveWay>span:last-child{
+	color: #4d4d4d;
+	font-size: 12px;
+	float: right;
+	margin-right:8px;
+}
+/*留言板*/
+.leaveMessage{
+	height: 40px;
+	line-height: 40px;
+	background-color: #fff;
+	border-bottom: 1px solid #f3f3f3;
+}
+.leaveMessage>.message{
+	vertical-align: middle;
+	outline: none;
+	width:74%;
+	height: 28px;
+	line-height: 28px;
+	resize: none;
+	white-space:nowrap;/*textarea不自动换行*/
+	overflow-x:hidden;/*隐藏横向滚动条*/
+	font-size: 12px;
+	border: 0px;
+}
+/*商品小计*/
+.allCount{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #4d4d4d;
+	font-size: 12px;
+	background-color: #fff;
+}
+.allCount>.countOut{
+	float: right;
+}
+.countOut>span:first-child{
+	font-size: 13px;
+	margin-right: 17px;
+}
+.countOut>span:last-child{
+	margin-right:12px;
+	color:#D3AC65;
+}
+/*合计及提交订单*/
+#footer>.allprice{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+}
+.allprice>.submitOrder{
+	float: right;
+	font-size: 12px;
+}
+.submitOrder>span:first-child{
+	color: #4d4d4d;
+}
+.submitOrder>span:last-child{
+	display: inline-block;
+	width: 112px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #D3AC65;
+	color: #fff;
+	margin-left: 12px;
+}
+/*配送方式弹出框*/
+.mask{
+	position: fixed;
+	top: 0;
+	bottom:0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.7);
+	z-index: 99;
+	display: none;
+}
+.mask>.selectway{
+	width: 100%;
+	height: 400px;
+	color: #4d4d4d;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+}
+.selectway>.selectTitle{
+	text-align: center;
+	font-size: 13px;
+	margin-top:12px;
+}
+.selectway>.wayOne{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	border-bottom:1px solid #ccc;
+}
+.wayOne>span{
+	font-size: 12px;
+	margin-left: 12px;
+}
+.wayOne>.select{
+	width: 18px;
+	height: 18px;
+	float: right;
+	margin-right:12px;
+	margin-top:6px;
+}
+.close{
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #D3AC65;
+	color: #fff;
+	position: fixed;
+	bottom: 0;
+}
