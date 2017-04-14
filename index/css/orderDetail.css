@@ -1,0 +1,53 @@
+/*付款*/
+#top>.payMoney{
+	width: 100%;
+	min-height: 90px;
+	overflow: hidden;
+	background-color: #fff;
+}
+.payMoney>p{
+	margin-left: 40px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #4d4d4d;
+}
+.payMoney>p:first-child{
+	margin-top: 22px;
+	margin-bottom:10px;
+}
+/*收货人信息*/
+#top>.receiver{
+	width: 100%;
+	min-height: 90px;
+	margin-top:10px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.receiver>.takeGoods{
+	margin:14px 0px 13px 40px;
+}
+.receiver>.takeGoods>span{
+	color: #4d4d4d;
+	font-size: 12px;
+}
+.receiver>.takeGoods>span:last-child{
+	float: right;
+	margin-right:12px;
+}
+.receiver>.address{
+	min-height: 20px;
+	margin-left: 18px;
+}
+.address>img:first-child{
+	width: 12px;
+	height: 16px;
+	margin-top: -25px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.address>span{
+	display: inline-block;
+	width: 80%;
+	font-size: 12px;
+	color: #4d4d4d;
+}
