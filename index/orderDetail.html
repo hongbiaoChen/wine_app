@@ -28,9 +28,90 @@
 	</header>
 	<section id = "main">
 		<!-- 下单商品 -->
-		
+		<div class = "ordershop">
+			<!-- 旗舰店 -->
+			<a class = "shopName">
+				<img src="shopcar_images/store@2x.png" alt="" class = "shopPic">
+				<span>酒品会旗舰店 &gt;</span>
+			</a>
+			<!-- 商品 -->
+			<a href="#" class = "goods">
+				<img src="shopcar_images/like1@2x.png" alt="" class = "picLeft">
+				<span class = "goodsDetail">
+					<span class = "shoptype">【酒品会】 侯伯王酒庄干红葡萄酒 Haut-Brion,Pessac-Leogn...</span>
+					<span>红酒节领券活动</span>
+				</span>
+				<span class = "price">
+					<span>¥599</span>
+					<span>¥799</span>
+					<span>x1</span>
+				</span>
+			</a>
+			<!-- 旗舰店 -->
+			<a class = "shopName">
+				<img src="shopcar_images/store@2x.png" alt="" class = "shopPic">
+				<span>酒品会旗舰店 &gt;</span>
+			</a>
+			<!-- 商品 -->
+			<a href="#" class = "goods">
+				<img src="shopcar_images/like1@2x.png" alt="" class = "picLeft">
+				<span class = "goodsDetail">
+					<span class = "shoptype">【酒品会】 侯伯王酒庄干红葡萄酒 Haut-Brion,Pessac-Leogn...</span>
+					<span>红酒节领券活动</span>
+				</span>
+				<span class = "price">
+					<span>¥599</span>
+					<span>¥799</span>
+					<span>x1</span>
+				</span>
+			</a>
+		</div>
+		<!-- 运费 -->
+		<div class = "fare">
+			<p>
+				<span>运费</span>
+				<span>¥0.00</span>
+			</p>
+			<p>
+				<span>实付款(含运费)</span>
+				<span class = "allfade">¥599.00</span>
+			</p>
+		</div>
+		<!-- 联系供应商以及拨打电话 -->
+		<div class = "contact">
+			<a href="#">
+				<img src="orderDetail_images/contact@2x.png" alt="">
+				<span>联系供应商</span>
+			</a>
+			<a href="#">
+				<img src="orderDetail_images/phone@2x.png" alt="">
+				<span>拨打电话</span>
+			</a>
+		</div>
 	</section>
-	<footer id = "footer"></footer>
+	<div style="width: 100%;height: 50px;"></div>
+	<footer id = "footer">
+		<!-- 取消订单及付款 -->
+		<div class = "cancel">
+			<span>
+				<img src="orderDetail_images/btn_cancel@2x.png" alt="">
+				<img src="orderDetail_images/btn_pay@2x.png" alt="" class = "surePay">
+			</span>
+		</div>
+	</footer>
+	<!-- 点击付款弹出框 -->
+	<div class="mask">
+		<div class = "selectway">
+			<p class = "selectTitle">选择付款方式</p>
+			<a class = "wayOne">
+				<img src="orderDetail_images/wechat@2x.png" alt="">
+				<span>微信支付</span>
+				<img src="orderDetail_images/right@2x.png" alt="" class = "mark">
+			</a>
+			<p class = "totalMoney">实际支付: ¥599.00</p>
+			<a href="#" class="makePay">确认付款</a>
+		</div>
+	</div>
 	<script src = "js/jquery-1.11.3.js"></script>
 	<script src = "js/orderDetail.js"></script>
 </body>
