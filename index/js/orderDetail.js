@@ -8,7 +8,7 @@ $(function(){
 			$(".shoptype").text(content.substr(0,28)+'...');
 		}
 	}
-	//遮罩层
+	//付款遮罩层
 	function mask(){
 		// 点击付款出现遮罩层
 		$('.surePay').on('touchstart',function(){
@@ -24,7 +24,26 @@ $(function(){
 			})
 		})
 	}
+	//取消订单遮罩层
+	function cancelMask(){
+		// 点击取消订单出现遮罩层
+		$('.cancelOrder').on('touchstart',function(){
+			$('.cancelMask').show();
+			//点击选择取消订单理由
+			$('.select').on('touchstart',function(){
+				var choseSrc = $(this).attr('src');
+				if(choseSrc==="shopcar_images/tuoyuan.png"){
+					$(this).attr('src','shopcar_images/xuanze@2x.png').parent().siblings().children('.select').attr('src','shopcar_images/tuoyuan.png');
+				}
+			})
+			//点击取消按钮关闭遮罩层
+			$('.removeMask').on('touchstart',function(){
+				$('.cancelMask').hide();
+			})
+		})
+	}
 //函数调用
 wordCount();
 mask();
+cancelMask();
 })

@@ -13,6 +13,7 @@
 		<div class = "payMoney">
 			<p>等待买家付款</p>
 			<p>剩下2天23小时自动关闭</p>
+			<img src="orderDetail_images/succ@2x.png" alt="">
 		</div>
 		<!-- 收货人信息 -->
 		<div class = "receiver">
@@ -94,7 +95,7 @@
 		<!-- 取消订单及付款 -->
 		<div class = "cancel">
 			<span>
-				<img src="orderDetail_images/btn_cancel@2x.png" alt="">
+				<img src="orderDetail_images/btn_cancel@2x.png" alt="" class = "cancelOrder">
 				<img src="orderDetail_images/btn_pay@2x.png" alt="" class = "surePay">
 			</span>
 		</div>
@@ -110,6 +111,36 @@
 			</a>
 			<p class = "totalMoney">实际支付: ¥599.00</p>
 			<a href="#" class="makePay">确认付款</a>
+		</div>
+	</div>
+	<!-- 点击取消订单出现遮罩层 -->
+	<div class = "cancelMask">
+		<div class = "cancelReason">
+			<p>取消订单的理由</p>
+			<p>
+				<span>不想买了</span>
+				<img src="shopcar_images/tuoyuan.png" alt="" class =  "select">
+			</p>
+			<p>
+				<span>信息填写错误，重新填写</span>
+				<img src="shopcar_images/tuoyuan.png" alt="" class =  "select">
+			</p>
+			<p>
+				<span>卖家缺货</span>
+				<img src="shopcar_images/tuoyuan.png" alt="" class =  "select">
+			</p>
+			<p>
+				<span>其他原因</span>
+				<img src="shopcar_images/tuoyuan.png" alt="" class =  "select">
+			</p>
+			<p>
+				<span>其他原因</span>
+				<img src="shopcar_images/tuoyuan.png" alt="" class =  "select">
+			</p>
+			<p class = "makesure">
+				<a href="#" class = "removeMask">取消</a>
+				<a href="#">确定</a>
+			</p>
 		</div>
 	</div>
 	<script src = "js/jquery-1.11.3.js"></script>

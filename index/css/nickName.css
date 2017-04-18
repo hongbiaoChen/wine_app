@@ -1,0 +1,48 @@
+form{
+	width: 100%;
+	min-height: 40px;
+	background-color: #fff;
+	position: relative;
+}
+form>span{
+	position: absolute;
+	top: 14px;
+	left: 8px;
+	font-size: 12px;
+	color: #ccc;
+}
+form>input{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	border:0px;
+	outline: none;
+	padding-left: 65px;
+}
+form>img{
+	width: 10px;
+	height: 11px;
+	vertical-align: middle;
+	position: absolute;
+	top: 17px;
+	right:8px;
+}
+.regular{
+	color: #ccc;
+	font-size: 12px;
+	margin-top: 10px;
+	padding-left: 8px;
+}
+/*确定按钮*/
+.sure{
+	width: 80%;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	margin-top: 43px;
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+	background-color: #D3AC65;
+}
