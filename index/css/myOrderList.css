@@ -1,0 +1,36 @@
+body{
+	background-color: #fff;
+}
+.statusTitle{
+	font-size: 14px;
+	color: #999;
+	font-family: PingFangSC-Light;
+	margin: 20px 0px 22px 12px;
+}
+.status{
+	min-height: 110px;
+	padding:0px 12px 0px 12px;
+	font-size: 0px;
+}
+.status>a:nth-child(2),.status>a:nth-child(5){
+	margin: 0px 5% 0px;
+}
+.status>a{
+	display: inline-block;
+	font-size: 12px;
+	width: 30%;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	background-color: #CCCCCC;
+	color: #4d4d4d;
+	border-radius: 5px;
+	margin-bottom:30px;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+}
+.status .active{
+	background-color: #fff;
+	color: #D3AC65;
+	border-color: #D3AC65;
+}
