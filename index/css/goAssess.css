@@ -1,7 +1,7 @@
 #top>.top{
 	width: 100%;
-	min-height:40px;
-	line-height: 40px;
+	min-height:42px;
+	line-height: 42px;
 	font-size: 12px;
 	background-color: #fff; 
 	border-bottom: 1px solid #ccc;
@@ -36,8 +36,33 @@
 /*评论心得*/
 .assessContent{
 	width: 100%;
-	min-height:166px;
+	min-height:176px;
 	background-color:#fff; 
+}
+.assessContent>form{
+	text-align: center;
+}
+.assessContent>form>textarea{
+	width: 95%;
+	height: 100px;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-top: 4px;
+	resize: none;
+	font-size: 13px;
+	overflow-y: hidden;
+	outline: none;
+	border: 0px;
+}
+.assessContent>form img{
+	width: 60px;
+	height: 60px;
+	vertical-align: middle;
+	margin-left: 8px;
+}
+.assessContent>form>span{
+	display: block;
+	text-align: left;
 }
 /*/五角星评价*/
 #main>.title{
@@ -84,4 +109,16 @@
 	color: #4d4d4d;
 	margin-left: 10px;
 	margin-right:20px;
+}
+#footer>.publish{
+	display: block;
+	width: 90%;
+	height: : 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #D3AC65;
+	color: #fff;
+	margin: 0 auto;
+	border-radius: 5px;
+	margin-top: 40px;
 }
