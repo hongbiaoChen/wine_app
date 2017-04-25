@@ -1,0 +1,84 @@
+body{
+	font-family: PingFangSC-Light;
+	font-size: 12px;
+	color: #4d4d4d;
+}
+.char{
+	margin-top: 15px;
+}
+img{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	float:left;
+	margin-left: 12px;
+}
+.content{
+	width: 200px;
+	min-height: 42px;
+	line-height: 18px;
+	background-color: #fff;
+	margin-left: 50px;
+	padding: 6px 6px 0px 6px;
+	border-radius: 5px;
+}
+.time{
+	color: #ccc;
+}
+/*页面底部*/
+#footer .footer{
+	width: 100%;
+	height: 40px;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	font-size: 0px;
+}
+.footer>a{
+	display: inline-block;
+	width: 50%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 5px;
+}
+.footer>a:first-child{
+	color: #d3ac65;
+	font-size: 12px;
+	border-right: 1px solid #ccc;
+	box-sizing: border-box;
+}
+.footer>a:last-child{
+	color: #4d4d4d;
+	font-size: 12px;
+}
+/*表单*/
+#footer>.put{
+	width: 100%;
+	height: 40px;
+	font-size: 0px;
+	position: absolute;
+	bottom: 40px;
+}
+.put>form{
+	float: left;
+	width:80%;
+}
+.put input{
+	height: 34px;
+	width: 100%;
+	outline: none;
+	font-size: 12px;
+}
+.put a{
+	display: inline-block;
+	width: 20%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	background-color: #d3ac65;
+}
