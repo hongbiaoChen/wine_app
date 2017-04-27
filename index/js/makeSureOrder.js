@@ -24,10 +24,10 @@ $(function(){
 		//点击选择快递方式和运费险切换图片
 		$('.select').on('touchstart',function(){
 			var choseSrc = $(this).attr('src');
-			if(choseSrc==="shopcar_images/tuoyuan.png"){
-				$(this).attr('src','shopcar_images/xuanze@2x.png');
+			if(choseSrc==="img/shopcar_images/tuoyuan.png"){
+				$(this).attr('src','img/shopcar_images/xuanze@2x.png');
 			}else{
-				$(this).attr('src','shopcar_images/tuoyuan.png');
+				$(this).attr('src','img/shopcar_images/tuoyuan.png');
 			}
 		});
 	}

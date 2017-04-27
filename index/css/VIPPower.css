@@ -72,7 +72,7 @@
 	display: block;
 	width: 34px;
 	height:22px;
-	background: url(../VIPPower_images/badge@2x.png) no-repeat center center;
+	background: url(../img/VIPPower_images/badge@2x.png) no-repeat center center;
 	background-size: cover;
 	margin:0 auto;
 	margin-top:9px;
@@ -235,7 +235,7 @@
 	display: inline-block;
 	width: 65px;
 	height: 65px;
-	background: url(../VIPPower_images/bigbadge@2x.png) no-repeat center center;
+	background: url(../img/VIPPower_images/bigbadge@2x.png) no-repeat center center;
 	background-size:50px 35px; 
 	background-color: #FAFAFA;
 	text-align: center;
@@ -257,7 +257,7 @@
 .motai{
 	width: 90%;
 	height: 500px;
-	background: url(../VIPPower_images/pw2x.png) no-repeat center center;
+	background: url(../img/VIPPower_images/pw2x.png) no-repeat center center;
 	background-size:100% 500px; 
 	margin:0 auto;
 	text-align: center;
@@ -307,7 +307,7 @@
 .detailMask .motaiAnother{
 	width: 90%;
 	height: 500px;
-	background: url(../VIPPower_images/mx@2x.png) no-repeat center center;
+	background: url(../img/VIPPower_images/mx@2x.png) no-repeat center center;
 	background-size:100% 500px; 
 	margin:0 auto;
 	text-align: center;

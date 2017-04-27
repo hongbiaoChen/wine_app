@@ -15,9 +15,9 @@
 		<div class = "top">
 			<div class="swiper-container">
       			<div class="swiper-wrapper">
-       				<div class="swiper-slide"> <img src="/index/wxShopping_images/banner@2x.png"> </div>
-        			<div class="swiper-slide"> <img src="/index/wxShopping_images/banner@2x.png"> </div> 
-        			<div class="swiper-slide"> <img src="/index/wxShopping_images/banner@2x.png"> </div> 
+       				<div class="swiper-slide"> <img src="/index/img/wxShopping_images/banner@2x.png"> </div>
+        			<div class="swiper-slide"> <img src="/index/img/wxShopping_images/banner@2x.png"> </div> 
+        			<div class="swiper-slide"> <img src="/index/img/wxShopping_images/banner@2x.png"> </div> 
          		</div>
 			</div>
 			<div class="pagination"></div>
@@ -35,7 +35,7 @@
 	<section id = "main">
 		<!-- 套餐展示 -->
 		<a class = "drinkingShow">
-			<img src="/index/wxShopping_images/pic1.png" alt="">
+			<img src="/index/img/wxShopping_images/pic1.png" alt="">
 			<div class = "tancanIntro">
 				<p>玫瑰庄园红酒月套餐</p>
 				<p>一周一酒，每周不同系列同一品牌的红酒，系列随机</p>
@@ -43,7 +43,7 @@
 			</div>
 		</a>
 		<a class = "drinkingShow">
-			<img src="/index/wxShopping_images/pic1.png" alt="">
+			<img src="/index/img/wxShopping_images/pic1.png" alt="">
 			<div class = "tancanIntro">
 				<p>玫瑰庄园红酒月套餐</p>
 				<p>一周一酒，每周不同系列同一品牌的红酒，系列随机</p>
@@ -55,17 +55,17 @@
 			<p>酒具</p>
 			<div class = "equipment">
 				<a href="#" class = "show">
-					<img src="/index/wxShopping_images/banner@2x.png" alt="">
+					<img src="/index/img/wxShopping_images/banner@2x.png" alt="">
 					<span>传统手工艺的杰出代表</span>
 					<i class = "mask"></i>
 				</a>
 				<a href="#" class = "show">
-					<img src="/index/wxShopping_images/banner@2x.png" alt="">
+					<img src="/index/img/wxShopping_images/banner@2x.png" alt="">
 					<span>传统手工艺的杰出代表</span>
 					<i class = "mask"></i>
 				</a>
 				<a href="#" class = "show">
-					<img src="/index/wxShopping_images/banner@2x.png" alt="">
+					<img src="/index/img/wxShopping_images/banner@2x.png" alt="">
 					<span>传统手工艺的杰出代表</span>
 					<i class = "mask"></i>
 				</a>

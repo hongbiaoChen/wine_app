@@ -13,10 +13,10 @@ $(function(){
 	$('.conllect').on('touchstart',function(event){
 		event.preventDefault();
         var imgsrc = $('.conllect>img').attr('src');
-        if(imgsrc=='/index/shopDetail_images/collectiong@2x.png'){
-            $('.conllect>img').attr('src','/index/shopDetail_images/collection2@2x.png');
+        if(imgsrc=='/index/img/shopDetail_images/collectiong@2x.png'){
+            $('.conllect>img').attr('src','/index/img/shopDetail_images/collection2@2x.png');
         }else{
-            $('.conllect>img').attr('src','/index/shopDetail_images/collectiong@2x.png');
+            $('.conllect>img').attr('src','/index/img/shopDetail_images/collectiong@2x.png');
         }
 	})
 })

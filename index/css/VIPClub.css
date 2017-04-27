@@ -20,7 +20,7 @@
 	text-align: right;
 	font-size: 10px;
 	color:#fff;
-	background:url(../mymain_images/btn@2x.png) no-repeat;
+	background:url(../img/mymain_images/btn@2x.png) no-repeat;
 	background-size:80px 20px;
 	margin-top:22px;
 }
@@ -239,7 +239,7 @@
 .motai{
 	width: 90%;
 	height: 500px;
-	background: url(../VIPClub_images/two.png) no-repeat center center;
+	background: url(../img/VIPClub_images/two.png) no-repeat center center;
 	background-size:100% 500px; 
 	margin:0 auto;
 	text-align: center;

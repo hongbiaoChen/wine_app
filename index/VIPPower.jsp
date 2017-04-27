@@ -14,13 +14,13 @@
 		<div class = "top">
 			<p class = "vipPic">
 				<span>
-					<img src="/index/VIPClub_images/301549441078143590.jpg" alt="">
+					<img src="/index/img/VIPClub_images/301549441078143590.jpg" alt="">
 				</span>
 				<span>coco-coffee</span>
 			</p>
 			<div class = "topDetail">
 				<a href="#" id = "powIntro">
-					<img src="/index/VIPPower_images/details@2x.png" alt="" class = "powIntro">
+					<img src="/index/img/VIPPower_images/details@2x.png" alt="" class = "powIntro">
 					<span class = "powIntroTitle">特权说明</span>
 				</a>
 				<span class = "vipLever">
@@ -32,7 +32,7 @@
 					<span class = "vipSocre">共<span>12345</span>积分</span>
 				</span>
 				<a href = "#" id = "allScore">
-					<img src="/index/VIPPower_images/details@2x.png" alt="" class = "powIntro">
+					<img src="/index/img/VIPPower_images/details@2x.png" alt="" class = "powIntro">
 					<span class = "powIntroTitle">积分明细</span>
 				</a>
 			</div>
@@ -41,55 +41,55 @@
 	<section id = "main">
 		<!-- 当前等级专属特权 -->
 		<div class = "vipNowPower">
-			<img src="/index/VIPPower_images/280721501213663479.png" alt="" class = "arrow">
+			<img src="/index/img/VIPPower_images/280721501213663479.png" alt="" class = "arrow">
 			<p class = "title">
 				<span class = "titleOne">当前等级专属特权</span>
 				<a href = "morePower" class = "morePower">更多专属特权 &gt;</a>
 			</p>
 			<div class = "content">
 				<a href = "#">
-					<img src="/index/VIPPower_images/redpacket@2x.png" alt="">
+					<img src="/index/img/VIPPower_images/redpacket@2x.png" alt="">
 					<span>发红包</span>
 				</a>
 				<a href = "#">
-					<img src="/index/VIPPower_images/gifts@2x.png" alt="">
+					<img src="/index/img/VIPPower_images/gifts@2x.png" alt="">
 					<span>发红包</span>
 				</a>
 				<a href = "#">
-					<img src="/index/VIPPower_images/discount@2x.png" alt="">
+					<img src="/index/img/VIPPower_images/discount@2x.png" alt="">
 					<span>发红包</span>
 				</a>
 			</div>
 		</div>
 		<!-- 当前等级专属礼品 -->
 		<div class = "vipGift">
-			<img src="/index/VIPPower_images/280721501213663479.png" alt="" class = "arrow">
+			<img src="/index/img/VIPPower_images/280721501213663479.png" alt="" class = "arrow">
 			<p class="title">
 				<span class = "titleOne">当前等级专属礼品</span>
 				<a href = "moreGift.html" class = "morePower">更多专属礼品 &gt;</a>
 			</p>
 			<div class = "content">
 				<a href="#">
-					<img src="/index/VIPPower_images/pic@2x.png" alt="">
+					<img src="/index/img/VIPPower_images/pic@2x.png" alt="">
 					<span>20元代金券</span>
 				</a>
 				<a href="#">
-					<img src="/index/VIPPower_images/pic@2x.png" alt="">
+					<img src="/index/img/VIPPower_images/pic@2x.png" alt="">
 					<span>VIP2 会员一次体验卷</span>
 				</a>
 				<a href="#">
-					<img src="/index/VIPPower_images/pic@2x.png" alt="">
+					<img src="/index/img/VIPPower_images/pic@2x.png" alt="">
 					<span>原装意大利进口红酒</span>
 				</a>
 				<a href="#">
-					<img src="/index/VIPPower_images/pic@2x.png" alt="">
+					<img src="/index/img/VIPPower_images/pic@2x.png" alt="">
 					<span>原装意大利进口红酒</span>
 				</a>
 			</div>
 		</div>
 		<!-- 等级徽章 -->
 		<div class = "vipBadge">
-			<img src="/index/VIPPower_images/280721501213663479.png" alt="" class = "arrow">
+			<img src="/index/img/VIPPower_images/280721501213663479.png" alt="" class = "arrow">
 			<p>等级徽章</p>
 			<div class = "content">
 				<span>V2</span>
@@ -99,7 +99,7 @@
 	<!-- 特权说明模态框 -->
 	<div class = "mask">
 		<div class = "motai">
-			<img src="/index/VIPPower_images/btn_close@2x.png" alt="" id = "close">
+			<img src="/index/img/VIPPower_images/btn_close@2x.png" alt="" id = "close">
 			<p class = "scorTitle">当前分数 (每月1号更新)</p>
 			<p class = "nowScor">
 				<span>12345</span>
@@ -111,7 +111,7 @@
 	<!-- 积分明细弹出框 -->
 	<div class = "detailMask">
 		<div class = "motaiAnother">
-			<img src="/index/VIPPower_images/btn_close@2x.png" alt="" id = "closetwo">
+			<img src="/index/img/VIPPower_images/btn_close@2x.png" alt="" id = "closetwo">
 			<p class = "scorTitle">当前分数 (每月1号更新)</p>
 			<p class = "nowScor">
 				<span>12345</span>
@@ -149,7 +149,7 @@
 
 	<!-- 左边弹出侧栏按钮 -->
 	<a href="#" id = "navbtn">
-		<img src="/index/VIPPower_images/logo.png" alt="">
+		<img src="/index/img/VIPPower_images/logo.png" alt="">
 	</a>
 	<!-- 遮罩层 -->
 	<div class= "navmask"></div>

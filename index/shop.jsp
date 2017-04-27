@@ -15,8 +15,8 @@
 		<div class = "top">
 			<div class="swiper-container">
       			<div class="swiper-wrapper">
-       				<div class="swiper-slide"> <img src="/index/shoping_images/201694178817165460.png"> </div>
-        			<div class="swiper-slide"> <img src="/index/shoping_images/201694178817165460.png"> </div>
+       				<div class="swiper-slide"> <img src="/index/img/shoping_images/201694178817165460.png"> </div>
+        			<div class="swiper-slide"> <img src="/index/img/shoping_images/201694178817165460.png"> </div>
          		</div>
 			</div>
 			<div class="pagination"></div>
@@ -38,27 +38,27 @@
       		<div class="swiper-slide">
         		<div class="content-slide dring_classification">
           			<a>
-          				<img src="/index/shoping_images/icon_situation@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_situation@3x.png" alt="">
           				<span>约会</span>
           			</a>
           			<a>
-          				<img src="/index/shoping_images/icon_bbq@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_bbq@3x.png" alt="">
           				<span>烧烤</span>
           			</a>
           			<a>
-          				<img src="/index/shoping_images/icon_song@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_song@3x.png" alt="">
           				<span>K歌</span>
           			</a>
           			<a>
-          				<img src="/index/shoping_images/icon_eat@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_eat@3x.png" alt="">
           				<span>吃饭</span>
           			</a>
           			<a>
-          				<img src="/index/shoping_images/icon_situation@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_situation@3x.png" alt="">
           				<span>酒吧</span>
           			</a>
           			<a>
-          				<img src="/index/shoping_images/icon_party@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_party@3x.png" alt="">
           				<span>节日聚会</span>
           			</a>
        			</div>
@@ -66,27 +66,27 @@
       		<div class="swiper-slide">
         		<div class="content-slide dring_classification">
           			<a>
-          				<img src="/index/shoping_images/icon_situation@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_situation@3x.png" alt="">
           				<span>约会</span>
           			</a>
           			<a>
-          				<img src="/index/shoping_images/icon_bbq@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_bbq@3x.png" alt="">
           				<span>烧烤</span>
           			</a>
           			<a>
-          				<img src="/index/shoping_images/icon_song@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_song@3x.png" alt="">
           				<span>K歌</span>
           			</a>
           			<a>
-          				<img src="/index/shoping_images/icon_eat@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_eat@3x.png" alt="">
           				<span>吃饭</span>
           			</a>
           			<a>
-          				<img src="/index/shoping_images/icon_situation@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_situation@3x.png" alt="">
           				<span>酒吧</span>
           			</a>
           			<a>
-          				<img src="/index/shoping_images/icon_party@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_party@3x.png" alt="">
           				<span>节日聚会</span>
           			</a>
         		</div>
@@ -94,27 +94,27 @@
       		<div class="swiper-slide">
         		<div class="content-slide dring_classification">
           			<a>
-          				<img src="/index/shoping_images/icon_situation@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_situation@3x.png" alt="">
           				<span>约会</span>
           			</a>
           			<a>
-          				<img src="/index/shoping_images/icon_bbq@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_bbq@3x.png" alt="">
           				<span>烧烤</span>
           			</a>
           			<a>
-          				<img src="/index/shoping_images/icon_song@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_song@3x.png" alt="">
           				<span>K歌</span>
           			</a>
           			<a>
-          				<img src="/index/shoping_images/icon_eat@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_eat@3x.png" alt="">
           				<span>吃饭</span>
           			</a>
           			<a>
-          				<img src="/index/shoping_images/icon_situation@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_situation@3x.png" alt="">
           				<span>酒吧</span>
           			</a>
           			<a>
-          				<img src="/index/shoping_images/icon_party@3x.png" alt="">
+          				<img src="/index/img/shoping_images/icon_party@3x.png" alt="">
           				<span>节日聚会</span>
           			</a>
         		</div>
@@ -124,24 +124,24 @@
    <!-- 背景图片一 -->
    <div class = "bgpicOne">
       <a href="#">
-         <img src="/index/shoping_images/middlebanner1@2x.png" alt="">
-         <img src="/index/shoping_images/pic_triangle@2x.png" alt="">
+         <img src="/index/img/shoping_images/middlebanner1@2x.png" alt="">
+         <img src="/index/img/shoping_images/pic_triangle@2x.png" alt="">
       </a>
    </div>
    <!-- 背景图下面三幅图 -->
    <div class = "grape_dring">
       <a href="#">
-         <img src="/index/shoping_images/killshow.png" alt="">
+         <img src="/index/img/shoping_images/killshow.png" alt="">
          <span>法国原装进口正品保障</span>
          <span>¥ 688.00</span>
       </a>
       <a href="#">
-         <img src="/index/shoping_images/killshow.png" alt="">
+         <img src="/index/img/shoping_images/killshow.png" alt="">
          <span>法国原装进口正品保障</span>
          <span>¥ 688.00</span>
       </a>  
       <a href="#">
-         <img src="/index/shoping_images/killshow.png" alt="">
+         <img src="/index/img/shoping_images/killshow.png" alt="">
          <span>法国原装进口正品保障</span>
          <span>¥ 688.00</span>
       </a>    
@@ -149,24 +149,24 @@
    <!-- 背景图片二 -->
    <div class = "bgpicOne">
       <a href="#">
-         <img src="/index/shoping_images/middlebanner2@2x.png" alt="">
-         <img src="/index/shoping_images/pic_triangle@2x.png" alt="">
+         <img src="/index/img/shoping_images/middlebanner2@2x.png" alt="">
+         <img src="/index/img/shoping_images/pic_triangle@2x.png" alt="">
       </a>
    </div>
    <!-- 背景图下面三幅图 -->
    <div class = "grape_dring grape_dring_bot">
       <a href="#">
-         <img src="/index/shoping_images/killshow.png" alt="">
+         <img src="/index/img/shoping_images/killshow.png" alt="">
          <span>法国原装进口正品保障</span>
          <span>¥ 688.00</span>
       </a>
       <a href="#">
-         <img src="/index/shoping_images/killshow.png" alt="">
+         <img src="/index/img/shoping_images/killshow.png" alt="">
          <span>法国原装进口正品保障</span>
          <span>¥ 688.00</span>
       </a>  
       <a href="#">
-         <img src="/index/shoping_images/killshow.png" alt="">
+         <img src="/index/img/shoping_images/killshow.png" alt="">
          <span>法国原装进口正品保障</span>
          <span>¥ 688.00</span>
       </a>    

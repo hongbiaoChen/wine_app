@@ -32,8 +32,8 @@ $(function(){
 			//点击选择取消订单理由
 			$('.select').on('touchstart',function(){
 				var choseSrc = $(this).attr('src');
-				if(choseSrc==="shopcar_images/tuoyuan.png"){
-					$(this).attr('src','shopcar_images/xuanze@2x.png').parent().siblings().children('.select').attr('src','shopcar_images/tuoyuan.png');
+				if(choseSrc==="img/shopcar_images/tuoyuan.png"){
+					$(this).attr('src','img/shopcar_images/xuanze@2x.png').parent().siblings().children('.select').attr('src','img/shopcar_images/tuoyuan.png');
 				}
 			})
 			//点击取消按钮关闭遮罩层

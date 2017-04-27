@@ -2,7 +2,7 @@
 $(function(){
 	$('#loginbtn').on('touchstart',function(event){
 		event.preventDefault();
-		$('.loginImg').attr('src','/index/login_images/sign-in2.png').parent().siblings('#signupbtn').children('.signupImg').attr("src",'/index/login_images/sign-up.png');
+		$('.loginImg').attr('src','/index/img/login_images/sign-in2.png').parent().siblings('#signupbtn').children('.signupImg').attr("src",'/index/img/login_images/sign-up.png');
 		$('.signIn').slideDown().siblings('.signUp').hide();
 	})
 })
@@ -107,7 +107,7 @@ $(function(){
 $(function(){
 	$("#signupbtn").on('touchstart',function(event){
 		event.preventDefault();
-		$('.signupImg').attr("src","/index/login_images/sign-up2.png").parent().siblings("#loginbtn").children('.loginImg').attr("src","/index/login_images/sign-in.png");
+		$('.signupImg').attr("src","/index/img/login_images/sign-up2.png").parent().siblings("#loginbtn").children('.loginImg').attr("src","/index/img/login_images/sign-in.png");
 		$('.signUp').slideDown().siblings('.signIn').hide();
 	})
 })

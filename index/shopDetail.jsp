@@ -15,9 +15,9 @@
 		<div class = "top">
 			<div class="swiper-container">
       			<div class="swiper-wrapper">
-       				<div class="swiper-slide"> <img src="/index/shoping_images/201694178817165460.png"></div>
-        			<div class="swiper-slide"> <img src="/index/shoping_images/201694178817165460.png"></div> 
-        			<div class="swiper-slide"> <img src="/index/shoping_images/201694178817165460.png"></div>
+       				<div class="swiper-slide"> <img src="/index/img/shoping_images/201694178817165460.png"></div>
+        			<div class="swiper-slide"> <img src="/index/img/shoping_images/201694178817165460.png"></div> 
+        			<div class="swiper-slide"> <img src="/index/img/shoping_images/201694178817165460.png"></div>
          		</div>
 			</div>
 			<div class="pagination"></div>
@@ -37,11 +37,11 @@
 			</p>
 			<!-- 收藏分享按钮 -->
 			<a href="#" class = "conllect">
-				<img src="/index/shopDetail_images/collectiong@2x.png" alt="">
+				<img src="/index/img/shopDetail_images/collectiong@2x.png" alt="">
 				<span>收藏</span>
 			</a>
 			<a href="#" class = "share">
-				<img src="/index/shopDetail_images/share@2x.png" alt="">
+				<img src="/index/img/shopDetail_images/share@2x.png" alt="">
 				<span>分享</span>
 			</a>
 		</div>
@@ -49,7 +49,7 @@
 	<section id = "main">
 		<!-- 购买可得积分 -->
 		<a class = "getscore">
-			<img src="/index/shopDetail_images/btn_sign@2x.png" alt="">
+			<img src="/index/img/shopDetail_images/btn_sign@2x.png" alt="">
 			<span>购买可获得60会员积分</span>
 			<span>&gt;</span>
 		</a>
@@ -63,20 +63,20 @@
 			<div class = "assessContent">
 				<p class = "startpicOut">
 					<span class = "startPic">
-						<img src="/index/shopDetail_images/star@2x.png" alt="">
-						<img src="/index/shopDetail_images/star@2x.png" alt="">
-						<img src="/index/shopDetail_images/star@2x.png" alt="">
-						<img src="/index/shopDetail_images/star@2x.png" alt="">
-						<img src="/index/shopDetail_images/star@2x.png" alt="">
+						<img src="/index/img/shopDetail_images/star@2x.png" alt="">
+						<img src="/index/img/shopDetail_images/star@2x.png" alt="">
+						<img src="/index/img/shopDetail_images/star@2x.png" alt="">
+						<img src="/index/img/shopDetail_images/star@2x.png" alt="">
+						<img src="/index/img/shopDetail_images/star@2x.png" alt="">
 					</span>
 					<span class = "assessUser">c****e</span>
 				</p>
 				<p class = "assesswrite">在口中留存良久，渐渐披露其味道的精华，舌头上留下点点浓郁的果甜味道,	和谐有致。滋味:在口中留存良久，渐渐披露其味道的精华，舌头上留下点点浓郁。</p>
 				<div class = "assessPic">
-					<img src = "/index/shopDetail_images/like1@2x.png" alt="">
-					<img src = "/index/shopDetail_images/like1@2x.png" alt="">
-					<img src = "/index/shopDetail_images/like1@2x.png" alt="">
-					<img src = "/index/shopDetail_images/like1@2x.png" alt="">
+					<img src = "/index/img/shopDetail_images/like1@2x.png" alt="">
+					<img src = "/index/img/shopDetail_images/like1@2x.png" alt="">
+					<img src = "/index/img/shopDetail_images/like1@2x.png" alt="">
+					<img src = "/index/img/shopDetail_images/like1@2x.png" alt="">
 				</div>
 				<a href="#" class = "havePic">查看有图评价</a>
 			</div>
@@ -85,7 +85,7 @@
 		<div class = "sellshop">
 			<!-- logo -->
 			<div class = "selllogo">
-				<img src="/index/shopDetail_images/wef.png" alt="">
+				<img src="/index/img/shopDetail_images/wef.png" alt="">
 				<p>酒品会旗舰店</p>
 				<p>轩尼诗理查专卖店</p>
 			</div>
@@ -107,29 +107,45 @@
 			<!-- 联系供应商 -->
 			<div class = "kefu">
 				<a href="#">
-					<img src="/index/shopDetail_images/contact@2x.png" alt="">
+					<img src="/index/img/shopDetail_images/contact@2x.png" alt="">
 					<span>联系供应商</span>
 				</a>
 				<a href="#">
-					<img src="/index/shopDetail_images/store@2x.png" alt="">
+					<img src="/index/img/shopDetail_images/store@2x.png" alt="">
 					<span>进入店铺</span>
 				</a>
 			</div>
 		</div>
-		<!-- 图片展示 -->
-		<div class = "bigPic">
-			<img src="/index/shopDetail_images/xiangqingye.png" alt="">
+		<!-- 商品简介 -->
+		<div class = "introduce">
+			<p class = "title">———— 商品简介 ————</p>
+			<img src="/index/img/shopDetail_images/3.jpg" alt="">
+			<div class = "worldIntroduce">
+				<p>原产国：澳大利亚</p>
+				<p>年份：2013</p>
+				<p>规格：750ml</p>
+				<p>储藏方式：常温避光</p>
+				<p>产地：巴罗萨</p>
+				<p>产区：南澳大利亚</p>
+			</div>
+			<div class = "detailIntroduce">
+				<p>纬度：34°51′</p>
+				<p>经度：138°33′E</p>
+				<p>酒精度：13.5%vol</p>
+				<p>保质期：十年</p>
+				<p>配料表：赤霞珠、设拉子</p>
+			</div>
 		</div>
 		<div style = "width:100%;height:80px;"></div>
 	</section>
 	<footer id = "footer">
 		<div class = "footer">
 			<a href="#">
-				<img src="/index/shopDetail_images/Supplier@2x.png" alt="">
+				<img src="/index/img/shopDetail_images/Supplier@2x.png" alt="">
 				<span>供应商</span>
 			</a>
 			<a href="#">
-				<img src="/index/shopDetail_images/buying@2x.png" alt="">
+				<img src="/index/img/shopDetail_images/buying@2x.png" alt="">
 				<span>购物车</span>
 				<span class = "count">1</span>
 			</a>
@@ -141,7 +157,7 @@
 	<div class = "mask">
 		<div class = "motai">
 			<p>
-				<img src="/index/shopDetail_images/btn_sign@2x.png" alt="">
+				<img src="/index/img/shopDetail_images/btn_sign@2x.png" alt="">
 				<span>购买可获得60会员积分</span>
 			</p>
 			<a href="#" class = "finish">完成</a>

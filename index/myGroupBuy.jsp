@@ -43,7 +43,7 @@
 		<div class = "dring_classfly content">
 			<div class = "lists"></div>
 			<a>
-				<img src="/index/deliciousDrink_images/logo_small1@2x.png" alt="">
+				<img src="/index/img/deliciousDrink_images/logo_small1@2x.png" alt="">
 				<span class = "classfly_introduce">
 					<p>卡洛斯</p>
 					<p>此商品参团人数达到1000人时可发货</p>
@@ -54,7 +54,7 @@
 				</span> -->
 			</a>
 			<a>
-				<img src="/index/deliciousDrink_images/logo_small1@2x.png" alt="">
+				<img src="/index/img/deliciousDrink_images/logo_small1@2x.png" alt="">
 				<span class = "classfly_introduce">
 					<p>卡洛斯</p>
 					<p>此商品参团人数达到1000人时可发货</p>
@@ -62,7 +62,7 @@
 				
 			</a>
 			<a>
-				<img src="/index/deliciousDrink_images/logo_small1@2x.png" alt="">
+				<img src="/index/img/deliciousDrink_images/logo_small1@2x.png" alt="">
 				<span class = "classfly_introduce">
 					<p>卡洛斯</p>
 					<p>此商品参团人数达到1000人时可发货</p>

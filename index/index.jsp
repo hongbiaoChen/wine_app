@@ -29,25 +29,25 @@
 				<ul class = "lf">
 					<li class = "lankmask">
 						<a href="#">
-							<img src="/index/images/sign@2x.png" alt="">
+							<img src="/index/img/images/sign@2x.png" alt="">
 						</a>
 						<p>签到</p>
 					</li>
 					<li class = "oncekill">
 						<a href="#">
-							<img src="/index/images/miaosha@2x.png" alt="">
+							<img src="/index/img/images/miaosha@2x.png" alt="">
 						</a>
 						<p>秒杀</p>
 					</li>
 					<li>
 						<a href="#">
-							<img src="/index/images/Pizza@2x.png" alt="">
+							<img src="/index/img/images/Pizza@2x.png" alt="">
 						</a>
 						<p>拼团</p>
 					</li>
 					<li>
 						<a href="#">
-							<img src="/index/images/Diamond@2x.png" alt="">
+							<img src="/index/img/images/Diamond@2x.png" alt="">
 						</a>
 						<p>个性化</p>
 					</li>
@@ -81,7 +81,7 @@
 			<!-- 秒杀单品 -->
 			<p class = "packTitle seckillTile">—— 秒杀单品 ——</p>
 			<p class = "killOrder">
-				<img src="/index/images/pic_miaosha@2x.png" alt="">
+				<img src="/index/img/images/pic_miaosha@2x.png" alt="">
 				<span>每日24时准时换新</span>
 			</p>
 			<div class = "killShopOut">

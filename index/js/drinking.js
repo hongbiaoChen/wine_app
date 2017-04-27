@@ -98,12 +98,12 @@ $(function(){
 //                     time = Y;
 //                     html += `
 //                         <a>
-//                             <img src="deliciousDrink_images/logo_small1@2x.png" alt="">
+//                             <img src="img/deliciousDrink_images/logo_small1@2x.png" alt="">
 //                             <span class = "classfly_introduce">
 //                                 <p>${content}</p>
 //                                 <p>${time}</p>
 //                             </span>
-//                             <img src="deliciousDrink_images/btn_shopping@2x.png" alt="">
+//                             <img src="img/deliciousDrink_images/btn_shopping@2x.png" alt="">
 //                         </a>
 //                     `;
 //                 }
@@ -147,12 +147,12 @@ $(function(){
                             time = Y;
                             html += `
                                 <a class = "item opacity">
-                                    <img src="/index/deliciousDrink_images/logo_small1@2x.png" alt="">
+                                    <img src="/index/img/deliciousDrink_images/logo_small1@2x.png" alt="">
                                     <span class = "classfly_introduce">
                                         <p>${content}</p>
                                         <p>${time}</p>
                                     </span>
-                                    <img src="/index/deliciousDrink_images/btn_shopping@2x.png" alt="">
+                                    <img src="/index/img/deliciousDrink_images/btn_shopping@2x.png" alt="">
                                 </a>
                             `;
                         }
@@ -205,12 +205,12 @@ $(function(){
                     time = Y;
                     html += `
                         <a>
-                            <img src="/index/deliciousDrink_images/logo_small1@2x.png" alt="">
+                            <img src="/index/img/deliciousDrink_images/logo_small1@2x.png" alt="">
                             <span class = "classfly_introduce">
                                 <p>${content}</p>
                                 <p>${time}</p>
                             </span>
-                            <img src="/index/deliciousDrink_images/btn_shopping@2x.png" alt="">
+                            <img src="/index/img/deliciousDrink_images/btn_shopping@2x.png" alt="">
                         </a>
                     `;
                 }

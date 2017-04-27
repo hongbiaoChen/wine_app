@@ -5,8 +5,10 @@ body{
 }
 .char{
 	margin-top: 15px;
+	overflow: hidden;
 }
-img{
+/*左侧显示样式*/
+/*img{
 	width: 30px;
 	height: 30px;
 	vertical-align: middle;
@@ -23,6 +25,27 @@ img{
 	margin-left: 50px;
 	padding: 6px 6px 0px 6px;
 	border-radius: 5px;
+}*/
+/*右侧显示样式样式*/
+img{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	float:right;
+	margin-right: 12px;
+}
+.content{
+	float: right;
+	width: 200px;
+	min-height: 42px;
+	line-height: 18px;
+	background-color: #fff;
+	margin-right: 12px;
+	padding: 6px 6px 0px 6px;
+	border-radius: 5px;
+	word-wrap:break-word;
 }
 .time{
 	color: #ccc;
@@ -59,15 +82,16 @@ img{
 	width: 100%;
 	height: 40px;
 	font-size: 0px;
-	position: absolute;
+	position: fixed;
 	bottom: 40px;
+	display: none;
 }
 .put>form{
 	float: left;
 	width:80%;
 }
 .put input{
-	height: 34px;
+	height: 32px;
 	width: 100%;
 	outline: none;
 	font-size: 12px;
@@ -81,4 +105,6 @@ img{
 	font-size: 12px;
 	color: #fff;
 	background-color: #d3ac65;
+	border: 2px solid transparent;
+    box-sizing: border-box;
 }

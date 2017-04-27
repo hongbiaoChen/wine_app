@@ -10,7 +10,7 @@
 </head>
 <body>
 	<header id = "top">
-		<img src="/index/groupbuy_images/lance.png" alt="" class = "topTitle">
+		<img src="/index/img/groupbuy_images/lance.png" alt="" class = "topTitle">
 		<p>没看到自己心仪的团购？</p>
 		<p>那不如挑一款属于自己的好酒，寻找同道中人！</p>
 		<!-- 发起团购按钮 -->
@@ -21,7 +21,7 @@
 	<section id = "main">
 		<!-- 参团商品 -->
 		<div class = "killshop">
-			<img src="/index/onceKill_images/like1@2x.png" alt="">
+			<img src="/index/img/onceKill_images/like1@2x.png" alt="">
 			<div class = "shopIntro">
 				<p>【酒品会】侯伯王酒庄干红葡萄酒Chateau Haut-Brion,Pessac-Leogn...</p>
 				<p class = "gorob">
@@ -38,7 +38,7 @@
 			</div>
 		</div>
 		<div class = "killshop">
-			<img src="/index/onceKill_images/like1@2x.png" alt="">
+			<img src="/index/img/onceKill_images/like1@2x.png" alt="">
 			<div class = "shopIntro">
 				<p>【酒品会】侯伯王酒庄干红葡萄酒Chateau Haut-Brion,Pessac-Leogn...</p>
 				<p class = "gorob">
@@ -55,7 +55,7 @@
 			</div>
 		</div>
 		<div class = "killshop">
-			<img src="/index/onceKill_images/like1@2x.png" alt="">
+			<img src="/index/img/onceKill_images/like1@2x.png" alt="">
 			<div class = "shopIntro">
 				<p>【酒品会】侯伯王酒庄干红葡萄酒Chateau Haut-Brion,Pessac-Leogn...</p>
 				<p class = "gorob">
@@ -72,7 +72,7 @@
 			</div>
 		</div>
 		<div class = "killshop">
-			<img src="/index/onceKill_images/like1@2x.png" alt="">
+			<img src="/index/img/onceKill_images/like1@2x.png" alt="">
 			<div class = "shopIntro">
 				<p>【酒品会】侯伯王酒庄干红葡萄酒Chateau Haut-Brion,Pessac-Leogn...</p>
 				<p class = "gorob">

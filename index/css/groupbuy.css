@@ -1,5 +1,5 @@
 body{
-	background: url(../groupbuy_images/bg@2x.png) no-repeat center center;
+	background: url(../img/groupbuy_images/bg@2x.png) no-repeat center center;
 	background-size: 100% 100%;
 	background-attachment: fixed; /*背景图片不随滚动条滚动*/
 }

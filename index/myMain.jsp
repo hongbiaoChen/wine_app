@@ -14,7 +14,7 @@
 			<div class = "topTitle">我 的</div>
 			<div class = "topIntroduce">
 				<a href="#" class = "userPic">
-					<img src="/index/VIPClub_images/301549441078143590.jpg" alt="">
+					<img src="/index/img/VIPClub_images/301549441078143590.jpg" alt="">
 				</a>
 				<div class = "userLever">
 					<p>Coco-coffee</p>
@@ -37,7 +37,7 @@
 					<span>88</span>
 				</a>
 				<a href="#">
-					<span><img src="/index/mymain_images/389580824050470642.png" alt=""></span><br/>
+					<span><img src="/index/img/mymain_images/389580824050470642.png" alt=""></span><br/>
 					<span>我的资料</span>
 				</a>
 			</div>
@@ -47,7 +47,7 @@
 		<!-- 会员服务 -->
 		<div class = "vipService">
 			<a href="#">
-				<img src="/index/mymain_images/icon_service@2x.png" alt="">
+				<img src="/index/img/mymain_images/icon_service@2x.png" alt="">
 				<span>会员服务</span>
 				<span class = "vipSign">
 					<span>签到享特权 ></span>
@@ -58,7 +58,7 @@
 		<div class = "orderGift">
 			<!-- 我的订单 -->
 			<a href="#">
-				<img src="/index/mymain_images/icon_order@2x.png" alt="">
+				<img src="/index/img/mymain_images/icon_order@2x.png" alt="">
 				<span>我的订单</span>
 				<span class = "vipSign">
 					<span>查看全部订单 ></span>
@@ -68,55 +68,55 @@
 			<div class = "orderDetail">
 				<a href="#">
 					<span>代付款</span>
-					<img src="/index/mymain_images/icon_wallet@2x.png" alt="">
+					<img src="/index/img/mymain_images/icon_wallet@2x.png" alt="">
 					<span class = "num">1</span>
 				</a>
 				<a href="#">
 					<span>待发货</span>
-					<img src="/index/mymain_images/icon_Undelivered-@2x.png" alt="">
+					<img src="/index/img/mymain_images/icon_Undelivered-@2x.png" alt="">
 					<span class = "num">1</span>
 				</a>
 				<a href="#">
 					<span>待收货</span>
-					<img src="/index/mymain_images/icon_yunshu@2x.png" alt="">
+					<img src="/index/img/mymain_images/icon_yunshu@2x.png" alt="">
 					<span class = "num">1</span>
 				</a>
 				<a href="#">
 					<span>待评价</span>
-					<img src="/index/mymain_images/icon_pingjia@2x.png" alt="">
+					<img src="/index/img/mymain_images/icon_pingjia@2x.png" alt="">
 					<span class = "num">1</span>
 				</a>
 				<a href="#">
 					<span>退款/售后</span>
-					<img src="/index/mymain_images/icon_shouhou@2x.png" alt="">
+					<img src="/index/img/mymain_images/icon_shouhou@2x.png" alt="">
 					<span class = "num">1</span>
 				</a>
 			</div>
 			<!-- 我的礼品 -->
 			<a href="#">
-				<img src="/index/mymain_images/icon_gift@2x.png" alt="">
+				<img src="/index/img/mymain_images/icon_gift@2x.png" alt="">
 				<span>我的礼品</span>
 			</a>
 			<!-- 礼品详情 -->
 			<div class = "GiftDetail">
 				<a href="#">
 					<span>红包</span>
-					<img src="/index/mymain_images/icon_wallet@2x.png" alt="">
+					<img src="/index/img/mymain_images/icon_wallet@2x.png" alt="">
 				</a>
 				<a href="#">
 					<span>优惠券</span>
-					<img src="/index/mymain_images/icon_Undelivered-@2x.png" alt="">
+					<img src="/index/img/mymain_images/icon_Undelivered-@2x.png" alt="">
 				</a>
 				<a href="#">
 					<span>收到的礼物</span>
-					<img src="/index/mymain_images/icon_yunshu@2x.png" alt="">
+					<img src="/index/img/mymain_images/icon_yunshu@2x.png" alt="">
 				</a>
 			</div>
 		</div>
 		<!-- 地址管理 足记 设置 版本信息 -->
 		<div class = "vipService">
 			<a href="#">
-				<img src="/index/mymain_images/icon_service@2x.png" alt="">
+				<img src="/index/img/mymain_images/icon_service@2x.png" alt="">
 				<span>地址管理</span>
 				<span class = "vipSign">
 					<span> ></span>
@@ -125,7 +125,7 @@
 		</div>
 		<div class = "vipService">
 			<a href="#">
-				<img src="/index/mymain_images/icon_footprint@3x.png" alt="">
+				<img src="/index/img/mymain_images/icon_footprint@3x.png" alt="">
 				<span>我的足迹</span>
 				<span class = "vipSign">
 					<span> ></span>
@@ -134,7 +134,7 @@
 		</div>
 		<div class = "vipService">
 			<a href="#">
-				<img src="/index/mymain_images/icon_setting@2x.png" alt="">
+				<img src="/index/img/mymain_images/icon_setting@2x.png" alt="">
 				<span>设置</span>
 				<span class = "vipSign">
 					<span> ></span>
@@ -143,7 +143,7 @@
 		</div>
 		<div class = "vipService lastDistance">
 			<a href="#">
-				<img src="/index/mymain_images/feedback.png" alt="">
+				<img src="/index/img/mymain_images/feedback.png" alt="">
 				<span>意见反馈</span>
 				<span class = "vipSign">
 					<span> ></span>
@@ -152,7 +152,7 @@
 		</div>
 		<div class = "vipService lastDistance">
 			<a href="#">
-				<img src="/index/mymain_images/icon_information@2x.png" alt="">
+				<img src="/index/img/mymain_images/icon_information@2x.png" alt="">
 				<span>版本信息</span>
 				<span class = "vipSign">
 					<span> ></span>

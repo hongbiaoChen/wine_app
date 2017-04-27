@@ -10,10 +10,10 @@ $(function(){
 	//点击按钮收藏商品
 	$('.collect').on('touchstart',function(){
         var imgsrc = $(this).attr('src');
-        if(imgsrc=='shopcar_images/collectiong@2x.png'){
-            $(this).attr('src','shopcar_images/collection2@2x.png');
+        if(imgsrc=='img/shopcar_images/collectiong@2x.png'){
+            $(this).attr('src','img/shopcar_images/collection2@2x.png');
         }else{
-            $(this).attr('src','shopcar_images/collectiong@2x.png');
+            $(this).attr('src','img/shopcar_images/collectiong@2x.png');
         }
     });
     
@@ -21,10 +21,10 @@ $(function(){
 	$('.select').on('touchstart',function(){
 		// $(this).attr('src','shopcar_images/xuanze@2x.png');
 		var choseSrc = $(this).attr('src');
-		if(choseSrc==="shopcar_images/tuoyuan.png"){
-			$(this).parents('.top').find('.select').attr('src','shopcar_images/xuanze@2x.png');
+		if(choseSrc==="img/shopcar_images/tuoyuan.png"){
+			$(this).parents('.top').find('.select').attr('src','img/shopcar_images/xuanze@2x.png');
 		}else{
-			$(this).parents('.top').find('.select').attr('src','shopcar_images/tuoyuan.png');
+			$(this).parents('.top').find('.select').attr('src','img/shopcar_images/tuoyuan.png');
 		}
 	})
 	
@@ -32,10 +32,10 @@ $(function(){
 	$('#choseAll').on('touchstart',function(){
 		var choseAllSrc = $(this).attr('src')
 		console.log(choseAllSrc);
-		if(choseAllSrc==='shopcar_images/tuoyuan.png'){
-			$(".select").attr('src','shopcar_images/xuanze@2x.png');
+		if(choseAllSrc==='img/shopcar_images/tuoyuan.png'){
+			$(".select").attr('src','img/shopcar_images/xuanze@2x.png');
 		}else{
-			$(".select").attr('src','shopcar_images/tuoyuan.png');
+			$(".select").attr('src','img/shopcar_images/tuoyuan.png');
 		}
 	})
 
