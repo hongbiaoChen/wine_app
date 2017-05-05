@@ -36,11 +36,11 @@
 				<span>酒品网络科技公司</span>
 			</p>
 			<!-- 收藏分享按钮 -->
-			<a href="#" class = "conllect">
+			<a href="#" class = "conllect" style="display: none;">
 				<img src="/index/img/shopDetail_images/collectiong@2x.png" alt="">
 				<span>收藏</span>
 			</a>
-			<a href="#" class = "share">
+			<a href="#" class = "share" style="display: none;">
 				<img src="/index/img/shopDetail_images/share@2x.png" alt="">
 				<span>分享</span>
 			</a>
@@ -48,7 +48,7 @@
 	</header>
 	<section id = "main">
 		<!-- 购买可得积分 -->
-		<a class = "getscore">
+		<a class = "getscore" style="display: none;">
 			<img src="/index/img/shopDetail_images/btn_sign@2x.png" alt="">
 			<span>购买可获得60会员积分</span>
 			<span>&gt;</span>
@@ -78,7 +78,7 @@
 					<img src = "/index/img/shopDetail_images/like1@2x.png" alt="">
 					<img src = "/index/img/shopDetail_images/like1@2x.png" alt="">
 				</div>
-				<a href="#" class = "havePic">查看有图评价</a>
+				<a href="#" class = "havePic" style="display: none;">查看有图评价</a>
 			</div>
 		</div>
 		<!-- 店铺详况 -->
@@ -112,7 +112,7 @@
 				</a>
 				<a href="#">
 					<img src="/index/img/shopDetail_images/store@2x.png" alt="">
-					<span>进入店铺</span>
+					<span>返回首页</span>
 				</a>
 			</div>
 		</div>

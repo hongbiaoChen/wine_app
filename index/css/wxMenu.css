@@ -1,46 +1,8 @@
 /*轮播样式*/
-#top .top{
-	width: 100%;
-	height: 180px;
-	position: relative;
-}
-.swiper-container {
-   height: 180px;
-   width: 100%;
-}
 #top .top img{
 	width: 100%;
 	height: 180px;
-}
-.top .pagination {
-   position: absolute;
-   left: 0;
-   text-align: center;
-   bottom:5px;
-   width: 100%;
-   z-index: 2;
-}
-.swiper-pagination-switch {   
-   display: inline-block;
-   width: 10px;
-   height: 10px;
-   border-radius: 10px;
-   background: #999;
-   box-shadow: 0px 1px 2px #555 inset;
-   margin: 0 3px;
-   cursor: pointer;
-}
-.swiper-active-switch {
-   background: #fff;
-}
-.user{
-   width: 30px;
-   height: 30px;
-   vertical-align: middle;
-   position: fixed;
-   right: 12px;
-   top: 12px;
-   z-index: 999;
+    vertical-align: middle;
 }
 /*头部套餐说明*/
 #top .taocan{
@@ -80,11 +42,20 @@
    min-height:260px;
    margin:0 auto; 
    margin-bottom: 20px;
+   position: relative;
 }
 .drinkingShow>img{
    width: 100%;
    height: 200px;
    vertical-align: bottom;
+}
+.drinkingShow>.buyNow{
+    width: 60px;
+    height: 23px;
+    vertical-align: middle;
+    position: absolute;
+    right: 10px;
+    bottom: 6px;
 }
 .drinkingShow .tancanIntro{
    width: 100%;
@@ -108,7 +79,7 @@
 }
 .tancanIntro>.price{
    position: absolute;
-   top: 11px;
+   top: 6px;
    right:10px;
    font-size: 17px;
    font-family: PingFangTC-Thin;
@@ -166,23 +137,9 @@
 .footer{
    text-align: center;
 }
-.footer>.contact>span{
-   display: inline-block;
-   width: 69px;
-   height: 30px;    
-   line-height: 30px;
-   text-align: center;
-   font-size: 14px;
-   color: #666;
-   font-family: PingFangSC-Regular;
-}
-.footer>.contact>span:nth-child(2){
-   border-left: 1px solid #CCCCCC;
-   box-sizing:border-box;
-   width: 80px;
-}
 .footer>.company{
-   margin-top: 23px;
-   font-size: 14px;
-   color: #666;
+    height: 40px;
+    line-height: 40px;
+    color: #d3ac65;
+    font-size: 15px;
 }

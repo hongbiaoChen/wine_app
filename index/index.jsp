@@ -79,8 +79,8 @@
 				</div>
 			</div>
 			<!-- 秒杀单品 -->
-			<p class = "packTitle seckillTile">—— 秒杀单品 ——</p>
-			<p class = "killOrder">
+			<p class = "packTitle seckillTile">—— 热门推荐 ——</p>
+			<p class = "killOrder" style="display: none;">
 				<img src="/index/img/images/pic_miaosha@2x.png" alt="">
 				<span>每日24时准时换新</span>
 			</p>
@@ -124,8 +124,8 @@
 				</div>
 			</div>
 			<!-- 热门推荐 -->
-			<p class = "packTitle seckillTile">—— 热门推荐 ——</p>
-			<div class = "hotout">
+			<p class = "packTitle seckillTile" style = "display: none;">—— 热门推荐 ——</p>
+			<div class = "hotout" style="display: none;">
 				<!-- <div class="swiper-container featured">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide" style="background:url(images/214336349073182155.png) no-repeat 98px">

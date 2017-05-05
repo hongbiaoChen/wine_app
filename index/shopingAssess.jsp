@@ -10,7 +10,7 @@
 </head>
 <body>
 	<header id = "top">
-		<div class = "top">
+		<div class = "top" style="display: none;">
 			<p class = "assessTitle">
 				<span>全部</span>
 				<span>好评(999+)</span>
@@ -70,7 +70,7 @@
 			<!-- 浏览次数和收藏 -->
 			<div class = "see">
 				<span>浏览1999次</span>
-				<span>
+				<span style="display: none;">
 					<!-- <img src="/index/shopingAssess_images/comment@2x.png" alt=""> -->
 					<img src="/index/img/shopingAssess_images/zan@2x.png" alt="" class = "zan">
 				</span>

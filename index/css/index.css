@@ -40,6 +40,7 @@
 	width: 100%;
 	height: 87px;
 	margin-top: 15px;
+	display: none;
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){/*针对ipad*/
 	.userInteraction{
@@ -81,6 +82,7 @@
 	text-align: center;
 	background-color: #fff;
 	border-radius: 10px;
+	display: none;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 410px){/*针对iphone5 iphone6*/
 	.searchForm{
@@ -142,6 +144,7 @@
 }
 .killOrder{
 	margin-top: 10px;
+	
 }
 .killOrder img{
 	width:25%;
@@ -152,6 +155,7 @@
 	margin-left: 10px;
 	font-size: 0.7rem;
 	color:#7E7E7D;
+	display: none;
 }
 .killShopOut{
 	width: 100%;

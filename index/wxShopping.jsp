@@ -22,6 +22,7 @@
 			</div>
 			<div class="pagination"></div>
 		</div>
+		<img src="/index/img/wxShopping_images/mine2@2x.png" alt="" class = "user">
 		<!-- 头部套餐说明 -->
 		<div class = "taocan">
 			<p>国际葡萄酒美食节</p>
@@ -75,7 +76,6 @@
 	<footer id = "footer">
 		<div class = "footer">
 			<p class = "contact">
-				<span>首页</span>
 				<span>会员中心</span>
 				<span>常见问题</span>
 			</p>
@@ -84,6 +84,7 @@
 	</footer>
 	<div style = "width:100%;height:40px;"></div>
 	<script src = "/index/js/jquery-1.11.3.js"></script>
+	<script src = "/index/js/fastclick.js"></script>
 	<script src = "/index/js/idangerous.swiper-2.0.min.js"></script>
 	<script src = "/index/js/wxShopping.js"></script>
 </body>
