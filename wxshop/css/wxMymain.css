@@ -1,0 +1,259 @@
+/*我的*/
+
+/*头部*/
+#top .top .topTitle{
+	width: 100%;
+	height: 44px;
+	text-align: center;
+	color:#fff;
+	font-size: 18px;
+	line-height: 44px;
+	background-color: #D3AD66;
+}
+.topIntroduce{
+	overflow: hidden;
+}
+#top .top .topIntroduce{
+	width: 100%;
+	height: 100px;
+	/*line-height: 100px;*/
+	background-color:#fff;
+	border-bottom:1px solid #E6E6E6;
+	text-align: center;
+	position: relative;
+}
+.topIntroduce .userPic{
+	float:left;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color:#000;
+	margin:5px 0px 0px 8px;
+	display: none;
+}
+.topIntroduce .userPic img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.topIntroduce .userLever{
+	float:left;
+	margin:12px 0px 0px 7px;
+	display: none;
+}
+.topIntroduce .userLever p:first-child{
+	font-size: 12px;
+	color:#4d4d4d;
+}
+.topIntroduce .userLever p:last-child{
+	border:1px solid #ccc;
+	border-radius: 5px;
+	color:#ccc;
+	font-size:8px;
+	width: 40px;
+	text-align: center;
+	margin-top:5px;
+}
+.topIntroduce .login{
+	display: inline-block;
+	width: 110px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border:1px solid #D4AC67;
+	border-radius: 17px;
+	margin-top:32px;
+	/*display:none;*/
+}
+.topIntroduce .merberClub{
+	/*float: right;*/
+	width: 80px;
+	height:20px;
+	line-height: 20px;
+	background-color:#fff;
+	text-align: right;
+	font-size: 10px;
+	color:#fff;
+	background:url(../img/wxMymain_images/btn@2x.png) no-repeat;
+	background-size:80px 20px;
+	/*margin-top:22px;*/
+	position: absolute;
+	right: 0;
+	top: 40px;
+}
+.top .userActive{
+	width: 100%;
+	height: 50px;
+	background-color: #fff;
+}
+.top .userActive a{
+	display: inline-block;
+	width: 24%;
+	height: 38px;
+	text-align:center;
+	/*background-color: green;*/
+	margin-top:7px;
+	border-right:1px solid #e6e6e6;
+	font-size: 13px;
+	color:#4c4c4c;
+	box-sizing:border-box;
+}
+.top .userActive a span:first-child{
+	line-height: 20px;
+}
+.top .userActive a:last-child{
+	border-right:0px;
+}
+.top .userActive a:last-child img{
+	width:22px;
+	height: 22px;
+	vertical-align: bottom;
+}
+/*会员服务*/
+#main .vipService{
+	width: 100%;
+	height:40px;
+	line-height: 40px;
+	margin-top:10px;
+	background-color: #fff;
+}
+#main .vipService>a{
+	display: 100%;
+	height: 40px;
+}
+#main .vipService>a>img{
+	width:22px;
+	height:22px;
+	margin-left:12px;
+	margin-right:3px;
+	vertical-align:middle;
+}
+#main .vipService>a span:nth-child(2){
+	font-size: 14px;
+	color: #4d4d4d;
+}
+.vipService .vipSign{
+	float:right;
+}
+.vipService .vipSign span{
+	font-size: 10px;
+	color:#999;
+	margin-right:12px;
+}
+/*我的订单和我的礼品*/
+#main .orderGift{
+	width: 100%;
+	background-color: #fff;
+	margin-top:10px;
+}
+#main .orderGift>a{
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fff;
+}
+#main .orderGift>a>img{
+	width:22px;
+	height:22px;
+	margin-left:12px;
+	margin-right:3px;
+	vertical-align:middle;
+}
+#main .orderGift>a span:nth-child(2){
+	font-size: 14px;
+	color: #4d4d4d;
+}
+.orderGift .vipSign{
+	float:right;
+}
+.orderGift .vipSign span{
+	font-size: 10px;
+	color:#999;
+	margin-right:12px;
+}
+.orderGift .orderDetail{
+	width: 90%;
+	height:63px;
+	background-color:#fff;
+	border-top:1px solid #e6e6e6;
+	border-bottom:1px solid #e6e6e6;
+	box-sizing:border-box;
+	margin-left:40px;
+}
+.orderGift .orderDetail>a{
+	display: inline-block;
+	width: 18%;
+	height:50px;
+	text-align: center;
+	margin-top:5px;
+	position: relative;
+}
+@media screen and (max-width:360px){
+	.orderGift .orderDetail>a:last-child{
+		width: 21%;
+	}
+	.orderGift .orderDetail>a{
+		font-size:10px;
+	}
+}
+.orderGift .orderDetail a span:first-child{
+	display: inline-block;
+	width: 100%;
+}
+.orderGift .orderDetail .num{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	line-height: 12px;
+	border:1px solid #000;
+	color: #000;
+	border-radius: 50%;
+	text-align: center;
+	position: absolute;
+	right: 8px;
+	top: 13px;
+}
+.orderGift .orderDetail>a img{
+	width:22px;
+	height:22px;
+	margin-top:5px;
+}
+/*礼品详情*/
+.orderGift .GiftDetail{
+	width: 90%;
+	height:63px;
+	background-color:#fff;
+	border-top:1px solid #e6e6e6;
+	/*border-bottom:1px solid #e6e6e6;*/
+	box-sizing:border-box;
+	margin-left:40px;
+}
+.orderGift .GiftDetail>a{
+	display: inline-block;
+	width: 28%;
+	height:50px;
+	text-align: center;
+	margin-top:5px;
+}
+/*@media screen and (max-width:360px){
+	.orderGift .GiftDetail>a:last-child{
+		width: 21%;
+	}
+	.orderGift .GiftDetail>a{
+		font-size:10px;
+	}
+}*/
+.orderGift .GiftDetail a span{
+	display: inline-block;
+	width: 100%;
+}
+.orderGift .GiftDetail>a img{
+	width:22px;
+	height:22px;
+	margin-top:5px;
+}
+/*.lastDistance{
+	margin-bottom:300px;
+}*/

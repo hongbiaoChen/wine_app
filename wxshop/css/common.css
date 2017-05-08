@@ -1,0 +1,92 @@
+/*通用属性*/
+*{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	font:13.2px PingFangHK Regular,"microsoft yahei",Arial,Helvetica,sans-serif;
+	background-color: #EDEEF0;
+	color:#D3AC65;
+	margin:0;
+	padding:0;
+}
+a{
+	color:#D3AC65;
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+/***********************************/
+/*页面底部导航*/
+/*底部导航*/
+.footnav{
+	width: 100%;
+	height: 64px;
+	background-color: #fff;
+	position: fixed;
+	z-index: 1000;
+	bottom: 0;
+}
+.footnav div{
+	width: 20%;
+	float:left;
+	text-align: center;
+}
+.footnav div img{
+	width: 40%;
+	margin-top: 5px;
+}
+.footnav .shequ{
+	width: 45%;
+}
+.footnav .shangcheng{
+	margin-top:6px;
+	width: 15%;
+}
+.footnav .shouye{
+	margin-top:10px;
+	width: 36%;
+}
+.footnav .meijiu{
+	margin-top:-3px;
+	width: 57%;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+	.footnav{
+		height: 125px;
+	}
+	.footnav .shouye{
+		margin-top:17px; 
+	}
+	.footnav .meijiu{
+		margin-top:-11px;
+	}
+	.likeGuestOut{
+		margin-bottom: 138px;
+	}
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px){
+	.footnav{
+		height: 164px;
+	}
+	.footnav .meijiu{
+		margin-top:-18px;
+	}
+	.likeGuestOut{
+		margin-bottom: 169px;
+	}
+}
+/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+	body{
+		font-size: 24px;
+	}
+}*/

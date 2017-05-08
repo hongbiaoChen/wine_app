@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="/resources/css/common.css">
+	<link rel="stylesheet" href="/resources/css/wxOrder.css">
+</head>
+<body>
+	<div class="content-wrapper">
+		<header id = "top">
+			<!-- 地址 -->
+			<div class="top">
+				<p>
+					<span>送至：广东省广州市海珠区建基路66号广东外贸广场501室</span>
+				</p>
+				<p>
+					<span>13900003939</span>
+				</p>
+				<span class = "more">&gt;</span>
+			</div>
+		</header>
+		<section id = "main">
+			<!-- 套餐 -->
+			<div class = "sellOut">
+				<div class = "hotgoods">
+					<img src="/resources/img/wxHotSell_images/like1@2x.png" alt="">
+					<p class = "wineName">酒品入门A套餐</p>
+					<p class = "introduce">1个月</p>
+					<p class = "price">
+						<span>¥399</span>
+					</p>
+				</div>
+			</div>
+			<!-- 送达时间 -->
+			<div class = "reachTime">
+				<p class = "time">送达时间</p>
+				<p class = "chosetime">
+					<span class = "bg">周二送达</span>
+					<span>周五送达</span>
+				</p>
+			</div>
+		</section>
+		<footer id = "footer">
+			<div class = "footer">
+				<p class = "pay">
+					<span>付款金额：</span>
+					<span>¥399</span>
+				</p>
+				<p class="makeSure">确认下单</p>
+				<p class = "net">www.9pin.com</p>
+			</div>
+		</footer>
+		<!-- 点击付款弹出框 -->
+		<div class="mask">
+			<div class = "selectway">
+				<p class = "selectTitle">
+					<span>选择付款方式</span>
+					<span class = "return">&lt;</span>
+				</p>
+				<a class = "wayOne">
+					<img src="/resources/img/orderDetail_images/wechat@2x.png" alt="">
+					<span>微信支付</span>
+					<img src="/resources/img/orderDetail_images/right@2x.png" alt="" class = "mark">
+				</a>
+				<p class = "totalMoney">实际支付: ¥599.00</p>
+				<a href="#" class="makePay">确认付款</a>
+			</div>
+		</div>
+	</div>
+
+	<!--地址信息-->
+	<div class="address-wrapper" style="display: none">
+		<form action="">
+			<div class="form-control">
+				<span>收货人</span>
+				<input type="text" placeholder="姓名" id="trueName">
+			</div>
+			<div class="form-control">
+				<span>联系电话</span>
+				<input type="text" placeholder="收货人电话" id="mobile">
+			</div>
+			<div class="form-control area-wrapper">
+				<div class="title"><span>所在区域</span></div>
+				<div class="area-select-wrapper">
+					<select name="" id="province" onchange="goProvince(event)">
+						<option value="">请选择省份</option>
+					</select>
+					<select name="" id="city" onchange="goCity(event)">
+						<option value="">请选择城市</option>
+					</select>
+					<select name="" id="area">
+						<option value="">请选择区</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-control">
+				<span>详细地址</span>
+				<input type="text" placeholder="街道信息" id="areaInfo">
+			</div>
+			<!--<div class = "detailAddress">-->
+				<!--<span>详细地址</span>-->
+				<!--<textarea name="" id=""></textarea>-->
+			<!--</div>-->
+			<a href="#" class = "keep" id="saveAddress">保存</a>
+			<div class="history-wrapper">
+				<h3>历史</h3>
+				<div class="item">
+					<div>item地址信息</div>
+					<div>item手机和姓名</div>
+				</div>
+				<div class="item">
+					<div>item地址信息</div>
+					<div>item手机和姓名</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<script src = "/resources/js/jquery-1.11.3.js"></script>
+	<script src = "/resources/js/fastclick.js"></script>
+	<script src = "/resources/js/wxOrder.js"></script>
+	<script>
+		$(function () {
+			$('#top>.top').on('click',function () {
+				$(this).parents('.content-wrapper').hide().siblings('.address-wrapper').show();
+            });
+        })
+
+	</script>
+</body>
+</html>
